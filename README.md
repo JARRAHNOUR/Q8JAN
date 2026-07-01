@@ -1,56 +1,81 @@
-# Q8JAN Token
+# Q8JAN
+
+![Q8JAN Logo](logo/logo.png)
 
 ## Overview
 
-Q8JAN is a professional BEP-20 token built on the BNB Smart Chain using Solidity and Hardhat.
+Q8JAN is a professional BEP-20 cryptocurrency built on the BNB Smart Chain.
+
+The project focuses on simplicity, transparency, security, and long-term sustainability.
+
+---
 
 ## Token Information
 
-- Name: Q8JAN
-- Symbol: Q8JAN
-- Standard: BEP-20
-- Decimals: 18
-- Total Supply: 100,000,000,000 Q8JAN
-- Fixed Supply: Yes
-- Burnable: Yes
-- Pausable: Yes
-- Mintable: No
-- Owner: Yes
+| Property | Value |
+|----------|--------|
+| Name | Q8JAN |
+| Symbol | Q8JAN |
+| Blockchain | BNB Smart Chain |
+| Standard | BEP-20 |
+| Decimals | 18 |
+| Total Supply | 100,000,000,000 |
+| Mint | Disabled |
+| Burn | Enabled |
+| Pause | Enabled |
+| Tax | 0% |
 
-## Technology
-
-- Solidity 0.8.28
-- Hardhat 3
-- OpenZeppelin Contracts
-- TypeScript
-- Viem
+---
 
 ## Features
 
-- Fixed total supply
-- Owner-controlled pause and unpause
-- Token burning
-- Secure OpenZeppelin implementation
-- Professional project structure
+- Fixed Supply
+- Burn Function
+- Emergency Pause
+- OpenZeppelin Contracts
+- Hardhat 3
+- TypeScript
+- Viem
 
-## Compile
+---
+
+## Development
+
+Compile
 
 ```bash
 npx hardhat compile
 ```
 
-## Test
+Run Tests
 
 ```bash
 npx hardhat test
 ```
 
-## Deploy
+Deploy
 
 ```bash
 npx hardhat run scripts/deploy-q8jan.ts --network bscMainnet
 ```
 
+---
+
+## Roadmap
+
+- Smart Contract
+- Mainnet Deployment
+- Website
+- PancakeSwap
+- CoinGecko
+- CoinMarketCap
+
+---
+
 ## Author
 
-Q8JAN Development Team
+JARRAHNOUR
+
+---
+
+© 2026 Q8JAN
