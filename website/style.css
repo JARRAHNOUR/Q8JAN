@@ -38,3 +38,101 @@ footer{text-align:center;padding:34px;background:#030303;color:#aaa}
 .hero-content h1{font-size:46px}
 .subtitle{font-size:18px}
 }
+/* ===== Smooth Scrolling ===== */
+html{
+    scroll-behavior:smooth;
+}
+
+/* ===== Hover Effects ===== */
+
+.card,
+.stats div,
+.timeline div{
+    transition:.35s ease;
+}
+
+.card:hover,
+.stats div:hover,
+.timeline div:hover{
+    transform:translateY(-8px);
+    border-color:#d4af37;
+    box-shadow:0 0 35px rgba(212,175,55,.35);
+}
+
+/* ===== Buttons ===== */
+
+.btn{
+    transition:.3s ease;
+}
+
+.primary:hover{
+    background:#f5cf55;
+    transform:scale(1.05);
+}
+
+.secondary:hover{
+    background:#d4af37;
+    color:#000;
+}
+
+.disabled:hover{
+    transform:none;
+}
+
+/* ===== FAQ ===== */
+
+.faq-item{
+    background:#111;
+    border:1px solid rgba(212,175,55,.25);
+    border-radius:16px;
+    padding:20px;
+    margin-bottom:18px;
+}
+
+.faq-item h3{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+.faq-item p{
+    color:#ddd;
+}
+
+/* ===== Contract Box ===== */
+
+.contract-box{
+    background:#111;
+    border:1px solid rgba(212,175,55,.35);
+    border-radius:18px;
+    padding:30px;
+}
+
+.contract-box p{
+    margin:12px 0;
+}
+
+/* ===== Selection ===== */
+
+::selection{
+    background:#d4af37;
+    color:#000;
+}
+
+/* ===== Scrollbar ===== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#050505;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#d4af37;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#f1c232;
+}
