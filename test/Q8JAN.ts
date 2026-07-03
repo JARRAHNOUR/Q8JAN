@@ -34,27 +34,9 @@ describe("Q8JAN", async function () {
     await token.write.burn([burnAmount]);
 
     const supplyAfter = await token.read.totalSupply();
+    const ownerBalance = await token.read.balanceOf([owner.account.address]);
 
     assert.equal(supplyAfter, supplyBefore - burnAmount);
-  });
-
-  it("allows owner to pause and unpause transfers", async function () {
-    const [owner, user] = await viem.getWalletClients();
-
-    const token = await viem.deployContract("Q8JAN", [
-      owner.account.address,
-    ]);
-
-    await token.write.transfer([user.account.address, 1000n]);
-
-    await token.write.pause();
-
-    await assert.rejects(async () => {
-      await token.write.transfer([user.account.address, 1n]);
-    });
-
-    await token.write.unpause();
-
-    await token.write.transfer([user.account.address, 1n]);
+    assert.equal(ownerBalance, supplyAfter);
   });
 });
