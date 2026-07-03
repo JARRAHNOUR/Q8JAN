@@ -1,62 +1,43 @@
-# Q8JAN Roadmap
+# Q8JAN Tokenomics
 
-## Phase 1
-✅ Smart Contract Development
+## Token Information
 
-✅ Testing
+Name: Q8JAN
 
-✅ Documentation
+Symbol: Q8JAN
 
-✅ Whitepaper
+Standards:
+- BEP-20 (BNB Smart Chain)
+- TRC-20 (TRON)
 
----
+Decimals:
+18
 
-## Phase 2
+Total Supply:
+100,000,000,000 Q8JAN
 
-Mainnet Deployment
+## Supply Model
 
-Contract Verification
+- Fixed Supply
+- No Mint
+- Burn Supported
 
-Official Website
+## Transaction Fees
 
-Logo Release
+Buy Tax: 0%
 
-GitHub Repository
+Sell Tax: 0%
 
----
+Transfer Tax: 0%
 
-## Phase 3
+## Ownership
 
-Community Launch
+- Ownable Contract
+- Ownership can be renounced after launch
 
-PancakeSwap Listing
+## Security
 
-Marketing Campaign
-
-CoinGecko Submission
-
----
-
-## Phase 4
-
-CoinMarketCap Submission
-
-Partnerships
-
-Utility Expansion
-
-Ecosystem Growth
-
----
-
-## Future
-
-Mobile Application
-
-NFT Platform
-
-Staking Platform
-
-DAO Governance
-
-Cross-chain Expansion
+- OpenZeppelin Contracts
+- Fixed Supply
+- No Hidden Mint
+- Open Source
