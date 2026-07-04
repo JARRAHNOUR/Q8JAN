@@ -1,79 +1,88 @@
-# Q8JAN Tokenomics
+# Q8JAN Roadmap
 
-## Token Information
-
-Name: Q8JAN
-
-Symbol: Q8JAN
-
-Network: BNB Smart Chain
-
-Standard: BEP-20
-
-Decimals: 18
-
-Maximum Supply:
-100,000,000,000 Q8JAN
-
-Mint:
-Disabled Forever
-
-Burn:
-Enabled
-
-Transaction Tax:
-0%
-
-Pause:
-Emergency Only
-
-Ownership:
-Owner
+Version: 1.0.0
+Status: Pre-Launch
 
 ---
 
-## Supply Allocation
+## Phase 1: Project Foundation
 
-Initial Supply
+Status: Completed
 
-100%
-100,000,000,000 Q8JAN
-
-All tokens are minted only once during deployment.
-
-No additional tokens can ever be created.
-
----
-
-## Utility
-
-Q8JAN is designed to become the foundation of a future decentralized ecosystem.
-
-Potential utilities include:
-
-- Payments
-- Community Rewards
-- Staking
-- NFT Integration
-- Governance
-- Web3 Applications
+- Finalize BEP-20 smart contract
+- Configure Hardhat project
+- Set up GitHub repository
+- Prepare basic project website
+- Create initial documentation
+- Prepare branding folder
 
 ---
 
-## Security
+## Phase 2: Professional Pre-Launch Preparation
 
-OpenZeppelin Contracts
+Status: In Progress
 
-Fixed Supply
-
-No Hidden Mint
-
-No Transaction Tax
-
-Transparent Smart Contract
+- Improve project documentation
+- Complete branding files
+- Prepare security documentation
+- Prepare media kit
+- Review tokenomics
+- Improve website content
+- Prepare deployment checklist
 
 ---
 
-## Long-Term Vision
+## Phase 3: BNB Smart Chain Launch
 
-Build a trusted cryptocurrency ecosystem focused on long-term sustainability and real-world utility.
+Status: Pending
+
+- Fund deployment wallet with BNB
+- Deploy Q8JAN contract on BNB Smart Chain Mainnet
+- Verify contract on BscScan
+- Publish official contract address
+- Update website with live contract information
+
+---
+
+## Phase 4: Liquidity & DEX Visibility
+
+Status: Pending
+
+- Add initial liquidity
+- Prepare PancakeSwap trading pair
+- Monitor liquidity and trading data
+- Prepare DexScreener and DexTools visibility
+
+---
+
+## Phase 5: Listings & Community Growth
+
+Status: Planned
+
+- Submit listing request to CoinGecko
+- Submit listing request to CoinMarketCap
+- Prepare Trust Wallet asset request
+- Prepare MetaMask asset information
+- Launch official community channels
+
+---
+
+## Phase 6: Future Ecosystem Expansion
+
+Status: Future
+
+- Explore additional blockchain networks
+- Evaluate staking options
+- Evaluate NFT integration
+- Evaluate governance features
+- Expand Web3 utility based on community demand
+
+---
+
+## Disclaimer
+
+This roadmap represents the planned development direction of the Q8JAN project.
+
+Future phases may change based on technical, legal, market, and community considerations.
+
+Nothing in this roadmap should be interpreted as financial advice or investment guarantees.
