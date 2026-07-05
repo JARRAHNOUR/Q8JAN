@@ -1,27 +1,35 @@
 # Q8JAN Deployment Guide
 
-## Overview
-
-This guide describes the official deployment procedure for the Q8JAN smart contract on BNB Smart Chain Mainnet.
+Version 1.0
 
 ---
 
-# Requirements
+# Overview
 
-Before deployment, ensure the following:
+This document describes the official deployment procedure for the Q8JAN smart contract on the BNB Smart Chain Mainnet.
 
-- Node.js installed
-- Hardhat installed
-- MetaMask wallet
-- BNB available for gas fees
-- BscScan API Key
-- Git repository synchronized
+Following this guide helps ensure a consistent, secure, and verifiable deployment process.
 
 ---
 
-# Environment Variables
+# Prerequisites
 
-Configure your `.env` file:
+Before deployment, ensure the following requirements are met:
+
+* Node.js installed
+* Hardhat environment configured
+* Project dependencies installed
+* MetaMask wallet configured
+* Sufficient BNB available for gas fees
+* BNB Smart Chain RPC endpoint configured
+* BscScan API Key available
+* GitHub repository synchronized
+
+---
+
+# Environment Configuration
+
+Configure the `.env` file before deployment.
 
 ```env
 PRIVATE_KEY=
@@ -30,9 +38,23 @@ BSCSCAN_API_KEY=
 INITIAL_OWNER=
 ```
 
+Never share or publish your private key.
+
 ---
 
-# Compile Contract
+# Step 1 — Install Dependencies
+
+If required, install project dependencies.
+
+```bash
+npm install
+```
+
+---
+
+# Step 2 — Compile the Smart Contract
+
+Compile the project.
 
 ```bash
 npx hardhat compile
@@ -46,7 +68,9 @@ Compiled successfully.
 
 ---
 
-# Run Tests
+# Step 3 — Execute Test Suite
+
+Run all available tests.
 
 ```bash
 npx hardhat test
@@ -58,23 +82,30 @@ Expected result:
 All tests passed.
 ```
 
+Deployment should not proceed unless every test passes successfully.
+
 ---
 
-# Deploy
+# Step 4 — Deploy the Smart Contract
+
+Deploy Q8JAN to BNB Smart Chain Mainnet.
 
 ```bash
 npx hardhat run scripts/deploy-q8jan.ts --network bscMainnet
 ```
 
-After deployment save:
+After deployment, securely record:
 
-- Contract Address
-- Deployment Block
-- Transaction Hash
+* Contract Address
+* Transaction Hash
+* Deployment Block Number
+* Deployment Wallet
 
 ---
 
-# Verify Contract
+# Step 5 — Verify the Contract
+
+Verify the source code on BscScan.
 
 ```bash
 npx hardhat run scripts/verify.ts --network bscMainnet
@@ -88,56 +119,80 @@ Contract verified successfully.
 
 ---
 
-# Post Deployment
+# Step 6 — Validate Token Information
 
-Verify:
+Verify that all on-chain information matches the official documentation.
 
-- Token Name
-- Symbol
-- Decimals
-- Total Supply
-- Burn Function
+Confirm:
 
----
-
-# Publish
-
-Update:
-
-- Official Website
-- GitHub
-- Whitepaper
-- Litepaper
-
-with the official contract address.
+* Token Name
+* Token Symbol
+* Decimals
+* Total Supply
+* Burn Function
+* Owner Address
 
 ---
 
-# Liquidity
+# Step 7 — Publish Official Information
 
-Create liquidity on PancakeSwap.
+After successful verification, update the following resources:
 
-Recommended initial pair:
+* Official Website
+* GitHub Repository
+* Whitepaper
+* Tokenomics Documentation
+* Roadmap Documentation
+
+Publish the official smart contract address in all locations.
+
+---
+
+# Step 8 — Add Initial Liquidity
+
+Create the initial liquidity pool.
+
+Recommended trading pair:
 
 ```
 Q8JAN / BNB
 ```
 
----
-
-# Security
-
-Before announcing:
-
-- Verify ownership
-- Verify contract source code
-- Double check token supply
-- Backup deployment information
+Verify that liquidity has been added successfully before public announcement.
 
 ---
 
-# Completed
+# Step 9 — Final Security Review
 
-When every step above is completed, Q8JAN is officially deployed.
+Before launch, verify:
 
-© 2026 Q8JAN Project
+* Contract ownership
+* Verified source code
+* Token supply
+* Contract address
+* Deployment records
+* Backup of deployment information
+
+---
+
+# Deployment Complete
+
+When all steps have been completed successfully, the Q8JAN smart contract is considered officially deployed and ready for public use.
+
+---
+
+# Contact
+
+Email
+
+[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+
+GitHub
+
+https://github.com/JARRAHNOUR/Q8JAN
+
+---
+
+© 2026 Q8JAN
+
+All Rights Reserved.
