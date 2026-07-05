@@ -7,7 +7,8 @@
   "scripts": {
     "compile": "node scripts/compile.js",
     "deploy:check": "node scripts/deploy.js",
-    "verify": "node scripts/verify.js"
+    "verify": "node scripts/verify.js",
+    "deploy": "node scripts/deploy.js"
   },
   "keywords": [
     "q8jan",
@@ -23,6 +24,5 @@
     "dotenv": "^16.0.0",
     "solc": "^0.8.20",
     "tronweb": "^6.0.0"
-  },
-  "devDependencies": {}
+  }
 }
