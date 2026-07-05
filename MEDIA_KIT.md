@@ -1,77 +1,85 @@
 # Q8JAN Media Kit
 
-## Project Overview
-
-Q8JAN is a fixed-supply BEP-20 digital asset built on BNB Smart Chain.
-
-The project focuses on simplicity, transparency, and long-term sustainability.
+Version 1.0
 
 ---
 
-## Token Information
+# Project Name
 
-| Item | Value |
-|------|-------|
-| Name | Q8JAN |
-| Symbol | Q8JAN |
-| Network | BNB Smart Chain |
-| Standard | BEP-20 |
-| Decimals | 18 |
-| Supply | 100,000,000,000 |
-| Minting | Disabled |
-| Burning | Supported |
-| Transaction Tax | None |
+Q8JAN
 
 ---
 
-## Official Resources
+# Description
 
-Website:
-(To be updated)
+Q8JAN is a blockchain digital asset designed around transparency, security, and long-term sustainability.
 
-GitHub:
+The project follows a fixed-supply model with straightforward token economics and publicly available technical documentation.
+
+---
+
+# Brand Values
+
+* Transparency
+* Security
+* Simplicity
+* Reliability
+* Sustainability
+
+---
+
+# Visual Identity
+
+Official Logo
+
+Q8JAN Fighter Aircraft Logo
+
+Official Colors
+
+Black
+
+Gold
+
+White
+
+---
+
+# Official Resources
+
+GitHub
+
 https://github.com/JARRAHNOUR/Q8JAN
 
-Contract:
-(To be updated after deployment)
+Official Email
 
-BscScan:
-(To be updated)
+[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
 
-PancakeSwap:
-(To be updated)
+Official Website
 
----
+(To be published after deployment.)
 
-## Branding
+Official Smart Contract
 
-Official logo is available inside:
-
-logo/logo.png
-
-Brand assets are available in the branding folder.
+(To be published after deployment.)
 
 ---
 
-## Documentation
+# Media Usage
 
-- Whitepaper
-- Litepaper
-- Tokenomics
-- Roadmap
-- FAQ
-- Security Policy
-- Deployment Guide
-- Audit Checklist
+The official Q8JAN logo and branding materials may be used when accurately referencing the project.
+
+Modification of official branding should not be made without permission from the project owner.
 
 ---
 
-## Contact
+# Press Contact
 
-Project: Q8JAN
+Email
 
-Official communication channels will be published after launch.
+[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
 
 ---
 
-© 2026 Q8JAN Project
+© 2026 Q8JAN
+
+All Rights Reserved.
