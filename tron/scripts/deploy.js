@@ -26,6 +26,11 @@ async function main() {
   console.log("Deployer:", deployer);
   console.log("TRX Balance:", tronWeb.fromSun(balance));
 
+  if (balance <= 0) {
+    console.log("Wallet has 0 TRX. Ready for deployment when TRX is available.");
+    return;
+  }
+
   const abiPath = path.join(__dirname, "../build/Q8JAN.abi.json");
   const bytecodePath = path.join(__dirname, "../build/Q8JAN.bytecode.txt");
 
@@ -34,17 +39,24 @@ async function main() {
   }
 
   const abi = JSON.parse(fs.readFileSync(abiPath, "utf8"));
-  const bytecode = fs.readFileSync(bytecodePath, "utf8");
+  const bytecode = fs.readFileSync(bytecodePath, "utf8").trim();
 
   if (!abi.length || !bytecode) {
     throw new Error("Invalid ABI or bytecode.");
   }
 
   console.log("Build files loaded successfully.");
-  console.log("Ready for deployment when TRX is available.");
-}
+  console.log("Deploying Q8JAN contract...");
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+  const contract = await tronWeb.contract().new({
+    abi,
+    bytecode,
+    feeLimit: 1_000_000_000,
+    callValue: 0,
+    userFeePercentage: 100,
+    originEnergyLimit: 10_000_000,
+  });
+
+  console.log("Q8JAN deployed successfully.");
+  console.log("Contract Address:", contract.address);
+}
