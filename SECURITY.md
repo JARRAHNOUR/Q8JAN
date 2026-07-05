@@ -1,116 +1,94 @@
 # Security Policy
 
-Version: 1.0.0
+## Supported Versions
 
----
-
-# Q8JAN Security Policy
-
-The security of the Q8JAN project is one of our highest priorities.
-
-We appreciate responsible security research and encourage anyone who discovers a potential vulnerability to report it privately before any public disclosure.
-
----
-
-# Supported Versions
+The following versions of Q8JAN are currently supported with security updates.
 
 | Version | Supported |
-|----------|-----------|
-| 1.0.x | ✅ Yes |
+| ------- | --------- |
+| 1.x     | ✅ Yes     |
 
 ---
 
-# Reporting a Vulnerability
+## Security Commitment
 
-If you discover a security vulnerability affecting Q8JAN, please report it responsibly.
+The Q8JAN project is committed to maintaining a secure, transparent, and reliable blockchain ecosystem.
 
-Until an official security contact is published, vulnerability reports should remain private and must not be publicly disclosed.
-
-Future reporting channels may include:
-
-- Official Website
-- Official Email
-- GitHub Security Advisories
-- GitHub Issues (if enabled)
+Security is considered a fundamental part of the project's development lifecycle. Every effort is made to follow widely accepted smart contract development practices and reduce unnecessary risks.
 
 ---
 
-# Security Scope
+## Smart Contract Security
 
-This policy applies to:
+The Q8JAN smart contract includes the following security features:
 
-- Smart Contracts
-- Official Website
-- Documentation
-- Deployment Scripts
-- Official GitHub Repository
-- Future Official Tools
-
-The following are outside the scope of this policy:
-
-- Third-party wallets
-- Exchanges
-- Blockchain infrastructure
-- Third-party applications
+* Fixed Total Supply
+* Minting Permanently Disabled
+* Burn Function Supported
+* Emergency Pause Capability
+* Ownership Protection
+* OpenZeppelin Contracts
+* Standard BEP-20 Compliance
+* No Transaction Tax
+* No Hidden Mint Logic
+* Public Source Code
 
 ---
 
-# Responsible Disclosure
+## Responsible Disclosure
 
-Please do NOT:
+If you discover a security vulnerability, please report it privately before making any public disclosure.
 
-- Publish vulnerabilities before they are reviewed.
-- Exploit vulnerabilities for financial gain.
-- Disrupt project services.
-- Attempt unauthorized access to wallets or infrastructure.
+Please include:
 
-Responsible disclosure helps protect both the project and its community.
-
----
-
-# Security Principles
-
-Q8JAN follows several core security principles:
-
-- Fixed token supply
-- No hidden mint functionality
-- Burnable tokens
-- Zero transaction tax
-- OpenZeppelin security standards
-- Open-source smart contract
-- Simplicity over unnecessary complexity
-- Continuous security improvements
+* Description of the vulnerability
+* Steps to reproduce
+* Potential impact
+* Suggested mitigation (if available)
 
 ---
 
-# Smart Contract
+## Contact
 
-The official Q8JAN smart contract is built using audited OpenZeppelin libraries.
+Security reports should be sent to:
 
-Current implementation includes:
+**Email**
 
-- ERC20
-- ERC20Burnable
-- Ownable
-
-There is no mint function after deployment.
+[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
 
 ---
 
-# Disclaimer
+## Disclosure Policy
 
-Although every effort is made to maintain a secure ecosystem, no software can ever be guaranteed to be completely free from vulnerabilities.
+After receiving a valid report, the project will:
 
-Users remain responsible for protecting their wallets, private keys, recovery phrases, and devices.
-
----
-
-# Version History
-
-Version 1.0.0
-
-Initial Security Policy
+1. Acknowledge receipt of the report.
+2. Investigate the reported issue.
+3. Develop an appropriate fix if necessary.
+4. Publish security updates when applicable.
+5. Credit responsible researchers when appropriate.
 
 ---
 
-© 2026 Q8JAN Project
+## Scope
+
+This security policy currently applies to:
+
+* Smart Contract
+* Official GitHub Repository
+* Project Documentation
+* Official Website (after deployment)
+
+---
+
+## Disclaimer
+
+While every effort is made to build secure software, no software can be guaranteed to be completely free from vulnerabilities.
+
+Users should always perform their own due diligence before interacting with blockchain applications.
+
+---
+
+© 2026 Q8JAN
+
+All Rights Reserved.
