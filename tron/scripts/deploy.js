@@ -7,6 +7,9 @@ async function main() {
   const privateKey = process.env.TRON_PRIVATE_KEY;
   const fullHost = process.env.TRON_FULL_HOST || "https://api.shasta.trongrid.io";
 
+  console.log("Q8JAN TRON deployment");
+  console.log("Network:", fullHost);
+
   if (!privateKey) {
     console.log("TRON_PRIVATE_KEY is not set.");
     console.log("Deployment is disabled until wallet funding is available.");
@@ -21,15 +24,8 @@ async function main() {
   const deployer = tronWeb.defaultAddress.base58;
   const balance = await tronWeb.trx.getBalance(deployer);
 
-  console.log("Q8JAN TRON deployment");
-  console.log("Network:", fullHost);
   console.log("Deployer:", deployer);
   console.log("TRX Balance:", tronWeb.fromSun(balance));
-
-  if (balance <= 0) {
-    console.log("Wallet has 0 TRX. Ready for deployment when TRX is available.");
-    return;
-  }
 
   const abiPath = path.join(__dirname, "../build/Q8JAN.abi.json");
   const bytecodePath = path.join(__dirname, "../build/Q8JAN.bytecode.txt");
@@ -46,6 +42,12 @@ async function main() {
   }
 
   console.log("Build files loaded successfully.");
+
+  if (balance <= 0) {
+    console.log("Wallet has 0 TRX. Ready for deployment when TRX is available.");
+    return;
+  }
+
   console.log("Deploying Q8JAN contract...");
 
   const contract = await tronWeb.contract().new({
@@ -60,3 +62,8 @@ async function main() {
   console.log("Q8JAN deployed successfully.");
   console.log("Contract Address:", contract.address);
 }
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
