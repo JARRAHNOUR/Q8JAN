@@ -1,0 +1,28 @@
+{
+  "name": "q8jan-tron",
+  "version": "1.0.0",
+  "description": "Q8JAN TRON TRC-20 token workspace",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "deploy:check": "node scripts/deploy.js",
+    "verify": "node scripts/verify.js"
+  },
+  "keywords": [
+    "q8jan",
+    "tron",
+    "trc20",
+    "token",
+    "sunswap"
+  ],
+  "author": "Q8JAN",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "solc": "^0.8.20",
+    "tronweb": "^6.0.0"
+  },
+  "devDependencies": {}
+}
