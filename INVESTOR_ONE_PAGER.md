@@ -1,75 +1,82 @@
-# Q8JAN Investor One Pager
+# Q8JAN
 
-## Overview
+## Investor One Pager
 
-Q8JAN is a fixed-supply BEP-20 digital asset built on BNB Smart Chain with a focus on transparency, simplicity, and long-term sustainability.
-
----
-
-## Mission
-
-To provide a transparent digital asset with a fixed token supply and no hidden mechanics.
+Version 1.0
 
 ---
 
-## Key Features
+# Project Overview
 
-- Fixed Supply
-- No Mint Function
-- Burnable
-- No Transaction Tax
-- No Reflection
-- No Blacklist
-- Open Source
-- BNB Smart Chain
+Q8JAN is a fixed-supply blockchain digital asset developed with a strong focus on transparency, simplicity, and long-term sustainability.
+
+The project follows a conservative development philosophy by avoiding unnecessary token mechanics and prioritizing security, reliability, and clear documentation.
 
 ---
 
-## Token Details
+# Project Highlights
 
-| Item | Value |
-|------|-------|
-| Name | Q8JAN |
-| Symbol | Q8JAN |
-| Network | BNB Smart Chain |
-| Standard | BEP-20 |
-| Decimals | 18 |
-| Total Supply | 100,000,000,000 |
-
----
-
-## Security
-
-- Solidity 0.8.28
-- OpenZeppelin Contracts
-- Internal Audit Checklist
-- Public Source Code
-- Contract Verification (after deployment)
+* Fixed Total Supply
+* No Inflation
+* No Hidden Minting
+* Burn Supported
+* Zero Transaction Tax
+* Open Source Development
+* Professional Documentation
+* Security-Oriented Design
 
 ---
 
-## Roadmap
+# Mission
 
-- Complete documentation
-- Deploy on BNB Smart Chain
-- Verify on BscScan
-- Launch PancakeSwap liquidity
-- Submit CoinGecko
-- Submit CoinMarketCap
+Build a transparent and trustworthy digital asset that provides a solid foundation for future ecosystem development.
 
 ---
 
-## Official Resources
+# Vision
 
-Website:
-(To be updated)
+Create a sustainable blockchain project that values security, community, and long-term growth over short-term speculation.
 
-GitHub:
+---
+
+# Current Status
+
+✅ Smart Contract Completed
+
+✅ Testing Completed
+
+✅ Documentation Completed
+
+✅ Branding Completed
+
+✅ Website Completed
+
+✅ GitHub Repository Ready
+
+⏳ Mainnet Deployment Pending
+
+---
+
+# Development Philosophy
+
+Q8JAN follows a simple approach.
+
+Every future improvement will be introduced only after careful planning, security review, and sufficient testing.
+
+---
+
+# Official Contact
+
+Email
+
+[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+
+GitHub
+
 https://github.com/JARRAHNOUR/Q8JAN
 
-Contract:
-(To be updated after deployment)
-
 ---
 
-© 2026 Q8JAN Project
+© 2026 Q8JAN
+
+All Rights Reserved.
