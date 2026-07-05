@@ -2,24 +2,47 @@
 
 ![Q8JAN Logo](logo/logo.png)
 
-> A transparent, fixed-supply BEP-20 token built on BNB Smart Chain.
+> A transparent, fixed-supply digital asset project with production-ready smart contracts for BNB Smart Chain and TRON.
+
+---
+
+# Project Status
+
+**Current Status:** Launch Ready
+
+Development has been completed.
+
+The smart contracts, documentation, website, deployment scripts, and repository have been finalized.
+
+The project is currently waiting for on-chain deployment.
 
 ---
 
 # Overview
 
-Q8JAN is a professional BEP-20 cryptocurrency built on the BNB Smart Chain.
+Q8JAN is a fixed-supply blockchain token designed with simplicity, transparency, and long-term sustainability.
 
-The project is designed with simplicity, transparency, security, and long-term sustainability as its core principles.
+The project follows a clean tokenomics model:
+
+- Fixed Supply
+- No Mint
+- No Transaction Tax
+- Burn Supported
+- Open Source
 
 ---
 
-# Core Principles
+# Supported Networks
 
-- Transparency
-- Security
-- Simplicity
-- Long-Term Sustainability
+## TRON
+
+Current launch target.
+
+Deployment scripts are completed and ready.
+
+## BNB Smart Chain
+
+Production-ready implementation is included inside this repository.
 
 ---
 
@@ -29,43 +52,43 @@ The project is designed with simplicity, transparency, security, and long-term s
 |----------|-------|
 | Name | Q8JAN |
 | Symbol | Q8JAN |
-| Blockchain | BNB Smart Chain |
-| Standard | BEP-20 |
-| Decimals | 18 |
 | Total Supply | 100,000,000,000 |
+| Decimals | 18 |
 | Mint | Disabled Forever |
 | Burn | Enabled |
 | Transaction Tax | 0% |
+| Ownership | Standard OpenZeppelin |
 
 ---
 
-# Features
+# Smart Contract Features
 
 - Fixed Supply
-- Burn Function
+- ERC20 Standard
+- ERC20Burnable
 - No Mint Function
-- No Transaction Tax
+- No Blacklist
+- No Pause
+- No Hidden Owner Privileges
 - OpenZeppelin Contracts
-- Hardhat
-- TypeScript
-- Viem
-- Open Source
+- Security Focused
 
 ---
 
-# Smart Contract
+# Repository Structure
 
-The Q8JAN smart contract is developed using audited OpenZeppelin libraries.
-
-Current implementation includes:
-
-- ERC20
-- ERC20Burnable
-- Ownable
-
-The total token supply is minted only once during deployment.
-
-No additional tokens can ever be created.
+```text
+branding/
+contracts/
+docs/
+logo/
+scripts/
+test/
+tron/
+index.html
+style.css
+README.md
+```
 
 ---
 
@@ -83,70 +106,134 @@ npm install
 npx hardhat compile
 ```
 
-## Run Tests
+## Test
 
 ```bash
 npx hardhat test
 ```
 
-## Deploy
-
-Deployment scripts are located inside:
-
-```text
-scripts/
-```
-
 ---
 
-# Repository Structure
+# TRON Development
 
-```text
-branding/
-contracts/
-docs/
-logo/
-scripts/
-test/
-website/
+Move into the TRON workspace:
+
+```bash
+cd tron
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Compile:
+
+```bash
+npm run compile
+```
+
+Deploy:
+
+```bash
+npm run deploy
 ```
 
 ---
 
 # Documentation
 
-Official documentation is available inside the `docs/` directory.
+Project documentation includes:
 
 - Whitepaper
+- Litepaper
 - Tokenomics
 - Roadmap
+- Deployment Guide
+- Launch Checklist
+- Audit Checklist
+- Media Kit
+- Investor One Pager
+
+---
+
+# Website
+
+Official Website
+
+https://jarrahnour.github.io/Q8JAN/
 
 ---
 
 # Security
 
-Please refer to:
+Security is a priority.
 
-`SECURITY.md`
+Current implementation includes:
+
+- Fixed Supply
+- No Mint
+- Burn Support
+- OpenZeppelin Libraries
+- Transparent Source Code
+
+If you discover a security issue, please report it responsibly before public disclosure.
+
+---
+
+# Deployment
+
+Deployment has **not** been executed yet.
+
+The smart contracts are ready.
+
+Deployment will begin once the deployment wallet is funded with TRX.
+
+---
+
+# Official Sources
+
+Official GitHub Repository
+
+https://github.com/JARRAHNOUR/Q8JAN
+
+Official Website
+
+https://jarrahnour.github.io/Q8JAN/
+
+Contract Address
+
+To be announced after official deployment.
+
+---
+
+# Warning
+
+There is currently **no officially deployed Q8JAN smart contract**.
+
+Any contract claiming to represent Q8JAN before an official announcement should be considered unofficial.
+
+Always verify information using the official GitHub repository and official website.
 
 ---
 
 # License
 
-This project is released under the MIT License.
+Released under the MIT License.
 
-See the `LICENSE` file for details.
+See LICENSE for details.
 
 ---
 
 # Disclaimer
 
-Q8JAN is a blockchain project.
+Nothing contained in this repository constitutes financial, legal, tax, or investment advice.
 
-Nothing contained in this repository constitutes financial, legal, or investment advice.
-
-Users should conduct their own research before purchasing, holding, or using Q8JAN.
+Users should perform their own research before interacting with blockchain assets.
 
 ---
 
 © 2026 Q8JAN Project
+
+All Rights Reserved.
