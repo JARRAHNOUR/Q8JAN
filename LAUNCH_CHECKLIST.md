@@ -1,85 +1,129 @@
 # Q8JAN Launch Checklist
 
-**Project:** Q8JAN
-
-**Version:** v1.0.0
+Version 1.0
 
 ---
 
-# Before Deployment
+# Purpose
 
-- [x] Smart contract completed
-- [x] Documentation completed
-- [x] Whitepaper completed
-- [x] Litepaper completed
-- [x] Website completed
-- [x] GitHub repository updated
-- [x] Audit checklist completed
-- [x] Deployment guide completed
-- [ ] Final code review
+This checklist summarizes every task that should be completed before the official public launch of Q8JAN.
+
+Following this checklist helps ensure a secure, transparent, and well-organized launch.
+
+---
+
+# Development
+
+| Task                      | Status |
+| ------------------------- | ------ |
+| Smart Contract Completed  | ✅      |
+| Documentation Completed   | ✅      |
+| Branding Completed        | ✅      |
+| Website Completed         | ✅      |
+| GitHub Repository Updated | ✅      |
+| Internal Review Completed | ✅      |
 
 ---
 
 # Deployment
 
-- [ ] Fund deployment wallet with BNB
-- [ ] Deploy contract to BNB Smart Chain Mainnet
-- [ ] Record transaction hash
-- [ ] Save contract address
+Complete the following after sufficient BNB is available.
 
----
-
-# Verification
-
-- [ ] Verify contract on BscScan
-- [ ] Confirm source code verification
-- [ ] Test Read Contract functions
-- [ ] Test Write Contract functions
-
----
-
-# Liquidity
-
-- [ ] Create PancakeSwap liquidity pool
-- [ ] Add initial liquidity
-- [ ] Verify trading pair
+| Task                       | Status |
+| -------------------------- | ------ |
+| Deploy Smart Contract      | ⏳      |
+| Verify Contract on BscScan | ⏳      |
+| Publish Contract Address   | ⏳      |
+| Add Initial Liquidity      | ⏳      |
 
 ---
 
 # Website
 
-- [ ] Publish official contract address
-- [ ] Add BscScan link
-- [ ] Add PancakeSwap link
+After deployment:
+
+* Publish the official contract address.
+* Update token information if required.
+* Verify all links.
+* Verify contact information.
+
+---
+
+# Documentation
+
+Confirm that the following documents are up to date:
+
+* Whitepaper
+* README
+* Tokenomics
+* Roadmap
+* Security Policy
+* Audit Checklist
+* Deployment Guide
 
 ---
 
 # Community
 
-- [ ] Publish launch announcement
-- [ ] Share official links
-- [ ] Update documentation
+Prepare the following:
+
+* Official announcements
+* Community channels
+* Marketing materials
+* Social media profiles
 
 ---
 
 # Listings
 
-- [ ] Submit CoinGecko application
-- [ ] Submit CoinMarketCap application
+Prepare submissions for:
+
+* CoinGecko
+* CoinMarketCap
+
+Complete submission only after the smart contract has been deployed and verified.
 
 ---
 
-# Security
+# Final Verification
 
-- [ ] Backup deployment wallet
-- [ ] Backup private key securely
-- [ ] Archive deployment transaction
-- [ ] Store verified contract information
+Before launch, verify:
+
+* Contract address
+* Token name
+* Symbol
+* Decimals
+* Total supply
+* Liquidity
+* Website
+* GitHub repository
+* Official email
 
 ---
 
 # Launch Complete
 
-When every item above is completed, Q8JAN is officially live.
+The Q8JAN project is considered officially launched after:
 
-© 2026 Q8JAN Project
+* Smart contract deployment
+* Contract verification
+* Liquidity creation
+* Publication of official information
+
+---
+
+# Contact
+
+Email
+
+[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+
+GitHub
+
+https://github.com/JARRAHNOUR/Q8JAN
+
+---
+
+© 2026 Q8JAN
+
+All Rights Reserved.
