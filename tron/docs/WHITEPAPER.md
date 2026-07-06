@@ -1,86 +1,74 @@
 # Q8JAN Whitepaper
 
-Version: 1.0
+**Version:** 1.0
 
 ---
 
 # Introduction
 
-Q8JAN is a fixed-supply TRC-20 digital asset launched on the TRON blockchain.
+Q8JAN is a fixed-supply TRC-20 digital asset built on the TRON blockchain.
 
-The project is designed with a simple philosophy:
+The project follows a simple and transparent philosophy focused on long-term sustainability.
 
-- Transparent
+Core principles include:
+
+- Transparency
 - Fixed Supply
-- No Hidden Functions
-- Tradable
+- No Hidden Minting
+- No Transaction Tax
 - Community Driven
 
 ---
 
 # Token Information
 
-Name: Q8JAN
-
-Symbol: Q8JAN
-
-Network: TRON
-
-Standard: TRC-20
-
-Decimals: 18
-
-Maximum Supply:
-
-100,000,000,000 Q8JAN
+| Property | Value |
+|----------|-------|
+| Name | Q8JAN |
+| Symbol | Q8JAN |
+| Blockchain | TRON |
+| Standard | TRC-20 |
+| Decimals | 18 |
+| Total Supply | 100,000,000,000 Q8JAN |
 
 ---
 
-# Core Principles
+# Core Features
 
-• Fixed Supply
+## Fixed Supply
 
-The total supply is permanently fixed.
+The entire token supply is minted once during deployment.
 
-No additional tokens can ever be minted.
-
----
-
-• No Transaction Tax
-
-Transfers do not charge hidden fees.
+No additional tokens can ever be created.
 
 ---
 
-• Burn Support
+## Burn Support
 
-Any holder may permanently burn their own tokens.
-
----
-
-• Ownership
-
-The Founder allocation is intended to support the long-term growth of the project.
+Token holders may permanently burn their own tokens.
 
 ---
 
-# Allocation
+## No Transaction Tax
 
-Founder & Treasury
+Q8JAN does not charge transaction taxes or hidden transfer fees.
 
-50%
+---
 
-Liquidity
+## Transparent Smart Contract
 
-30%
+The smart contract is open source and contains no hidden minting functions.
 
-Marketing
+---
 
-10%
+# Token Allocation
 
-Reserve
-
-10%
+| Allocation | Percentage |
+|------------|-----------:|
+| Founder & Treasury | 50% |
+| Liquidity | 30% |
+| Marketing | 10% |
+| Reserve | 10% |
 
 ---
 
@@ -88,38 +76,39 @@ Reserve
 
 The initial trading pair is planned to be:
 
-Q8JAN / TRX
+**Q8JAN / TRX**
 
 ---
 
-# Roadmap
+# Development Roadmap
 
-Phase 1
+## Phase 1
 
-• Smart Contract
+- Smart Contract
+- Documentation
+- Website
+- Mainnet Deployment
 
-• Website
+## Phase 2
 
-• Documentation
+- Liquidity
+- Community Building
+- Marketing
 
-• Deployment
+## Phase 3
 
-Phase 2
-
-• Liquidity
-
-• Community
-
-• Market Expansion
-
-Phase 3
-
-• Future Development
+- Ecosystem Expansion
+- Partnerships
+- Future Utilities
 
 ---
 
 # Disclaimer
 
-Cryptocurrency investments involve risk.
+Cryptocurrency investments involve financial risk.
 
-Users should perform their own research before purchasing Q8JAN.
+Every participant should perform independent research before purchasing or trading Q8JAN.
+
+---
+
+© 2026 Q8JAN Project

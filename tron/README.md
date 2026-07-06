@@ -1,46 +1,41 @@
-# Q8JAN
+# Q8JAN TRON
 
 ## Overview
 
-Q8JAN is a fixed-supply TRC-20 digital asset built on the TRON blockchain.
+Q8JAN is a fixed-supply TRC-20 digital asset built for deployment on the TRON blockchain.
 
-The project is designed with one simple goal:
+The project is designed with a simple launch philosophy:
 
-> Build a transparent, secure, fixed-supply token that can be freely traded.
-
----
-
-# Network
-
-Primary Network
-
-TRON
-
-Token Standard
-
-TRC-20
-
-Future Expansion
-
-BNB Smart Chain (BEP-20)
+> A transparent, fixed-supply token with no minting, no transaction tax, and burn support.
 
 ---
 
-# Token Information
+## Network
+
+| Item | Value |
+|------|-------|
+| Blockchain | TRON |
+| Token Standard | TRC-20 |
+| Launch Strategy | TRON-only |
+| Initial Trading Pair | Q8JAN / TRX |
+
+---
+
+## Token Information
 
 | Property | Value |
 |----------|-------|
 | Name | Q8JAN |
 | Symbol | Q8JAN |
 | Decimals | 18 |
-| Total Supply | 100,000,000,000 |
-| Mint | Disabled |
+| Total Supply | 100,000,000,000 Q8JAN |
+| Minting | Disabled Forever |
 | Burn | Enabled |
 | Transaction Tax | 0% |
 
 ---
 
-# Token Allocation
+## Token Allocation
 
 | Allocation | Percentage |
 |------------|-----------:|
@@ -51,73 +46,127 @@ BNB Smart Chain (BEP-20)
 
 ---
 
-# Project Structure
+## Project Structure
 
-```
+```text
 tron/
-│
 ├── build/
+├── config/
 ├── contracts/
+│   └── Q8JAN.sol
 ├── docs/
 │   ├── WHITEPAPER.md
 │   └── TOKENOMICS.md
+├── node_modules/
 ├── scripts/
+│   ├── compile.js
+│   ├── deploy.js
+│   └── verify.js
 ├── website/
+├── .env
+├── .env.example
 ├── package.json
-├── README.md
-└── .env.example
+├── package-lock.json
+└── README.md
 ```
 
 ---
 
-# Current Status
+## Smart Contract Features
 
-✅ Smart Contract Completed
-
-✅ Documentation Completed
-
-✅ Website In Progress
-
-✅ Build System Ready
-
-✅ Deployment Environment Ready
-
-⏳ Waiting for TRX funding
-
-⏳ Contract Deployment
-
-⏳ Liquidity
-
-⏳ Public Trading
+- Fixed supply
+- No minting function
+- Burnable token
+- No transaction tax
+- Open-source smart contract
+- ERC20-compatible implementation for TRON deployment
 
 ---
 
-# Trading
+## Requirements
 
-The first trading pair will be:
-
-Q8JAN / TRX
-
----
-
-# Security
-
-• Fixed Supply
-
-• No Hidden Mint
-
-• No Transaction Tax
-
-• Burnable
-
-• Open Source
+- Node.js 20+
+- npm
+- TRON wallet
+- TRX for deployment fees
 
 ---
 
-# Official Repository
+## Installation
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Compile the smart contract:
+
+```bash
+npm run compile
+```
+
+---
+
+## Environment
+
+Create a `.env` file using `.env.example`.
+
+Example:
+
+```env
+TRON_PRIVATE_KEY=
+TRON_FULL_HOST=https://api.trongrid.io
+```
+
+---
+
+## Deployment
+
+Deploy to the configured TRON network:
+
+```bash
+npm run deploy
+```
+
+---
+
+## Verification
+
+After deployment:
+
+```bash
+npm run verify
+```
+
+---
+
+## Current Status
+
+| Component | Status |
+|-----------|--------|
+| Smart Contract | ✅ Complete |
+| Build System | ✅ Complete |
+| Deployment Script | ✅ Ready |
+| Verification Script | ✅ Ready |
+| Documentation | ✅ In Progress |
+| Website | ✅ In Progress |
+| Mainnet Deployment | ⏳ Waiting for TRX |
+| Liquidity | ⏳ Pending |
+| Public Trading | ⏳ Pending |
+
+---
+
+## Repository
 
 https://github.com/JARRAHNOUR/Q8JAN
 
 ---
 
-© 2026 Q8JAN Project
+## License
+
+MIT License
+
+---
+
+© 2026 Q8JAN Project. All rights reserved.

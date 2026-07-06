@@ -3,16 +3,40 @@ const path = require("path");
 const { TronWeb } = require("tronweb");
 require("dotenv").config();
 
+const DEFAULT_NETWORK = "https://api.trongrid.io";
+const BUILD_DIR = path.join(__dirname, "../build");
+const ABI_PATH = path.join(BUILD_DIR, "Q8JAN.abi.json");
+const BYTECODE_PATH = path.join(BUILD_DIR, "Q8JAN.bytecode.txt");
+const DEPLOYMENT_PATH = path.join(BUILD_DIR, "deployment.json");
+
 async function main() {
   const privateKey = process.env.TRON_PRIVATE_KEY;
-  const fullHost = process.env.TRON_FULL_HOST || "https://api.shasta.trongrid.io";
+  const fullHost = process.env.TRON_FULL_HOST || DEFAULT_NETWORK;
+  const isDryRun =
+    process.argv.includes("--check") ||
+    process.argv.includes("--dry-run") ||
+    process.env.DEPLOY_DRY_RUN === "true";
 
   console.log("Q8JAN TRON deployment");
   console.log("Network:", fullHost);
+  console.log("Mode:", isDryRun ? "CHECK ONLY" : "LIVE DEPLOY");
+
+  if (!fs.existsSync(ABI_PATH) || !fs.existsSync(BYTECODE_PATH)) {
+    throw new Error("Missing build files. Run: npm run compile");
+  }
+
+  const abi = JSON.parse(fs.readFileSync(ABI_PATH, "utf8"));
+  const bytecode = fs.readFileSync(BYTECODE_PATH, "utf8").trim();
+
+  if (!Array.isArray(abi) || abi.length === 0 || !bytecode) {
+    throw new Error("Invalid ABI or bytecode.");
+  }
+
+  console.log("Build files: OK");
 
   if (!privateKey) {
     console.log("TRON_PRIVATE_KEY is not set.");
-    console.log("Deployment is disabled until wallet funding is available.");
+    console.log("Add it to .env before live deployment.");
     return;
   }
 
@@ -22,29 +46,19 @@ async function main() {
   });
 
   const deployer = tronWeb.defaultAddress.base58;
-  const balance = await tronWeb.trx.getBalance(deployer);
+  const balanceSun = await tronWeb.trx.getBalance(deployer);
+  const balanceTrx = Number(tronWeb.fromSun(balanceSun));
 
   console.log("Deployer:", deployer);
-  console.log("TRX Balance:", tronWeb.fromSun(balance));
+  console.log("TRX Balance:", balanceTrx);
 
-  const abiPath = path.join(__dirname, "../build/Q8JAN.abi.json");
-  const bytecodePath = path.join(__dirname, "../build/Q8JAN.bytecode.txt");
-
-  if (!fs.existsSync(abiPath) || !fs.existsSync(bytecodePath)) {
-    throw new Error("Missing build files. Run: npm run compile");
+  if (balanceTrx <= 0) {
+    console.log("Wallet has 0 TRX. Deployment cannot continue.");
+    return;
   }
 
-  const abi = JSON.parse(fs.readFileSync(abiPath, "utf8"));
-  const bytecode = fs.readFileSync(bytecodePath, "utf8").trim();
-
-  if (!abi.length || !bytecode) {
-    throw new Error("Invalid ABI or bytecode.");
-  }
-
-  console.log("Build files loaded successfully.");
-
-  if (balance <= 0) {
-    console.log("Wallet has 0 TRX. Ready for deployment when TRX is available.");
+  if (isDryRun) {
+    console.log("Deployment check passed. No contract was deployed.");
     return;
   }
 
@@ -59,8 +73,20 @@ async function main() {
     originEnergyLimit: 10_000_000,
   });
 
+  const deployment = {
+    project: "Q8JAN",
+    standard: "TRC-20",
+    network: fullHost,
+    deployer,
+    contractAddress: contract.address,
+    deployedAt: new Date().toISOString(),
+  };
+
+  fs.writeFileSync(DEPLOYMENT_PATH, JSON.stringify(deployment, null, 2));
+
   console.log("Q8JAN deployed successfully.");
   console.log("Contract Address:", contract.address);
+  console.log("Deployment saved to tron/build/deployment.json");
 }
 
 main().catch((error) => {
