@@ -1,3 +1,12 @@
+![TRON](https://img.shields.io/badge/Blockchain-TRON-red)
+
+![TRC20](https://img.shields.io/badge/Standard-TRC--20-blue)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Version](https://img.shields.io/badge/Version-v1.0.0-orange)
+
+![Status](https://img.shields.io/badge/Status-Pre--Deployment-yellow)
 # Q8JAN TRON
 
 ## Overview
