@@ -5,9 +5,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
 /// @title Q8JAN
-/// @notice Fixed-supply TRC-20 token.
-/// @dev Initial supply is minted once at deployment.
-/// No minting function exists after deployment.
+/// @notice Fixed-supply TRON-compatible token.
+/// @dev The total supply is minted once at deployment. No minting function exists after deployment.
 contract Q8JAN is ERC20, ERC20Burnable {
     uint256 public constant MAX_SUPPLY = 100_000_000_000 * 10 ** 18;
 
