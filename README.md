@@ -2,9 +2,9 @@
 
 ![Q8JAN Logo](logo/logo.png)
 
-## Overview
+# Overview
 
-Q8JAN is a fixed-supply BEP-20 digital asset developed on the BNB Smart Chain.
+Q8JAN is a fixed-supply TRC-20 digital asset developed on the TRON blockchain.
 
 The project is built around transparency, simplicity, security, and long-term sustainability while following widely accepted blockchain development standards.
 
@@ -14,31 +14,30 @@ Q8JAN is designed to provide a reliable digital asset with publicly available do
 
 # Key Features
 
-* Fixed Supply
-* BEP-20 Standard
-* 18 Decimals
-* Zero Transaction Tax
-* Burn Function
-* Emergency Pause
-* OpenZeppelin Security
-* No Hidden Mint
-* Public Source Code
+- Fixed Supply
+- TRC-20 Standard
+- 18 Decimals
+- Zero Transaction Tax
+- Burn Function
+- No Mint Function
+- OpenZeppelin Security
+- Public Source Code
 
 ---
 
 # Token Information
 
-| Property        | Value                 |
-| --------------- | --------------------- |
-| Name            | Q8JAN                 |
-| Symbol          | Q8JAN                 |
-| Blockchain      | BNB Smart Chain       |
-| Standard        | BEP-20                |
-| Decimals        | 18                    |
-| Total Supply    | 100,000,000,000 Q8JAN |
-| Minting         | Disabled              |
-| Burn            | Supported             |
-| Transaction Tax | 0%                    |
+| Property | Value |
+|----------|-------|
+| Name | Q8JAN |
+| Symbol | Q8JAN |
+| Blockchain | TRON |
+| Standard | TRC-20 |
+| Decimals | 18 |
+| Total Supply | 100,000,000,000 Q8JAN |
+| Minting | Disabled Forever |
+| Burn | Supported |
+| Transaction Tax | 0% |
 
 ---
 
@@ -46,27 +45,31 @@ Q8JAN is designed to provide a reliable digital asset with publicly available do
 
 The smart contract is built using:
 
-* Solidity
-* Hardhat
-* OpenZeppelin Contracts
-* TypeScript
-* Node.js
+- Solidity
+- OpenZeppelin Contracts
+- TronWeb
+- Node.js
 
 ---
 
 # Project Structure
 
 ```
-contracts/
-scripts/
-test/
-branding/
-docs/
-logo/
-website/
-README.md
-WHITEPAPER.md
-LICENSE
+tron/
+├── contracts/
+├── scripts/
+├── build/
+├── docs/
+│   └── whitepaper/
+├── website/
+├── README.md
+├── CHANGELOG.md
+├── AUDIT.md
+├── SECURITY.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── package.json
+└── .env.example
 ```
 
 ---
@@ -77,11 +80,11 @@ Security has been a priority throughout development.
 
 Implemented protections include:
 
-* Fixed Supply
-* Ownership Protection
-* Emergency Pause
-* OpenZeppelin Standards
-* Contract Verification (after deployment)
+- Fixed Supply
+- No Mint Function
+- Burn Support
+- OpenZeppelin Standards
+- Contract Verification (after deployment)
 
 ---
 
@@ -89,15 +92,17 @@ Implemented protections include:
 
 The repository includes professional documentation such as:
 
-* Whitepaper
-* Tokenomics
-* Roadmap
-* Security Policy
-* Audit Checklist
-* Deployment Guide
-* Launch Checklist
-* Investor One Pager
-* Media Kit
+- Official Whitepaper (PDF)
+- Official Whitepaper (DOCX)
+- Tokenomics
+- Roadmap
+- Security Policy
+- Audit Report
+- Deployment Guide
+- Launch Checklist
+- Changelog
+- Contributing Guide
+- MIT License
 
 ---
 
@@ -115,7 +120,9 @@ Current Status:
 
 ✅ GitHub Repository Ready
 
-⏳ Deployment Pending
+✅ GitHub Release v1.0 Published
+
+⏳ TRON Mainnet Deployment Pending
 
 ⏳ Contract Verification Pending
 
@@ -125,17 +132,17 @@ Current Status:
 
 # Repository
 
-GitHub Repository:
+GitHub Repository
 
 https://github.com/JARRAHNOUR/Q8JAN
 
 ---
 
-# Contact
+# Official Contact
 
-Email:
+Email
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+q8janproject@gmail.com
 
 ---
 
