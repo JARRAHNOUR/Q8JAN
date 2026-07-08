@@ -14,27 +14,28 @@ Following this checklist helps ensure a secure, transparent, and well-organized 
 
 # Development
 
-| Task                      | Status |
-| ------------------------- | ------ |
-| Smart Contract Completed  | ✅      |
-| Documentation Completed   | ✅      |
-| Branding Completed        | ✅      |
-| Website Completed         | ✅      |
-| GitHub Repository Updated | ✅      |
-| Internal Review Completed | ✅      |
+| Task | Status |
+|------|--------|
+| Smart Contract Completed | ✅ |
+| Documentation Completed | ✅ |
+| Branding Completed | ✅ |
+| Website Completed | ✅ |
+| GitHub Repository Updated | ✅ |
+| GitHub Release Published | ✅ |
+| Internal Review Completed | ✅ |
 
 ---
 
 # Deployment
 
-Complete the following after sufficient BNB is available.
+Complete the following after sufficient TRX is available.
 
-| Task                       | Status |
-| -------------------------- | ------ |
-| Deploy Smart Contract      | ⏳      |
-| Verify Contract on BscScan | ⏳      |
-| Publish Contract Address   | ⏳      |
-| Add Initial Liquidity      | ⏳      |
+| Task | Status |
+|------|--------|
+| Deploy Smart Contract to TRON Mainnet | ⏳ |
+| Verify Contract on TronScan | ⏳ |
+| Publish Contract Address | ⏳ |
+| Add Initial SunSwap Liquidity | ⏳ |
 
 ---
 
@@ -42,10 +43,11 @@ Complete the following after sufficient BNB is available.
 
 After deployment:
 
-* Publish the official contract address.
-* Update token information if required.
-* Verify all links.
-* Verify contact information.
+- Publish the official contract address.
+- Update token information.
+- Verify all website links.
+- Verify contact information.
+- Update the contract section.
 
 ---
 
@@ -53,13 +55,15 @@ After deployment:
 
 Confirm that the following documents are up to date:
 
-* Whitepaper
-* README
-* Tokenomics
-* Roadmap
-* Security Policy
-* Audit Checklist
-* Deployment Guide
+- Whitepaper
+- README
+- CHANGELOG
+- SECURITY
+- CONTRIBUTING
+- Audit Checklist
+- Deployment Guide
+- Tokenomics
+- Roadmap
 
 ---
 
@@ -67,10 +71,12 @@ Confirm that the following documents are up to date:
 
 Prepare the following:
 
-* Official announcements
-* Community channels
-* Marketing materials
-* Social media profiles
+- Official Announcement
+- X (Twitter) Account
+- Telegram Community
+- Marketing Materials
+- Community Moderation
+- Social Media Profiles
 
 ---
 
@@ -78,10 +84,10 @@ Prepare the following:
 
 Prepare submissions for:
 
-* CoinGecko
-* CoinMarketCap
+- CoinGecko
+- CoinMarketCap
 
-Complete submission only after the smart contract has been deployed and verified.
+Complete submissions only after the smart contract has been deployed, verified on TronScan, and liquidity has been added.
 
 ---
 
@@ -89,15 +95,15 @@ Complete submission only after the smart contract has been deployed and verified
 
 Before launch, verify:
 
-* Contract address
-* Token name
-* Symbol
-* Decimals
-* Total supply
-* Liquidity
-* Website
-* GitHub repository
-* Official email
+- Smart Contract Address
+- Token Name
+- Token Symbol
+- Decimals
+- Total Supply
+- SunSwap Liquidity
+- Official Website
+- GitHub Repository
+- Official Email
 
 ---
 
@@ -105,20 +111,21 @@ Before launch, verify:
 
 The Q8JAN project is considered officially launched after:
 
-* Smart contract deployment
-* Contract verification
-* Liquidity creation
-* Publication of official information
+- Smart Contract Deployment
+- TronScan Verification
+- SunSwap Liquidity Added
+- Official Website Updated
+- Public Announcement Published
 
 ---
 
-# Contact
+# Official Contact
 
-Email
+**Email**
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+q8janproject@gmail.com
 
-GitHub
+**GitHub**
 
 https://github.com/JARRAHNOUR/Q8JAN
 
@@ -126,4 +133,4 @@ https://github.com/JARRAHNOUR/Q8JAN
 
 © 2026 Q8JAN
 
-All Rights Reserved.
+Released under the MIT License.
