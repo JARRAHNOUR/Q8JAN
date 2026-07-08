@@ -10,76 +10,108 @@ Q8JAN
 
 ---
 
-# Description
+# Project Description
 
-Q8JAN is a blockchain digital asset designed around transparency, security, and long-term sustainability.
+Q8JAN is a decentralized TRC-20 digital asset built on the TRON blockchain.
 
-The project follows a fixed-supply model with straightforward token economics and publicly available technical documentation.
+The project is designed around transparency, security, simplicity, and long-term sustainability while maintaining a permanently fixed token supply and zero transaction tax.
+
+Q8JAN is supported by open-source development, publicly available documentation, and a transparent deployment strategy.
 
 ---
 
 # Brand Values
 
-* Transparency
-* Security
-* Simplicity
-* Reliability
-* Sustainability
+- Transparency
+- Security
+- Simplicity
+- Reliability
+- Sustainability
 
 ---
 
 # Visual Identity
 
-Official Logo
+## Official Logo
 
 Q8JAN Fighter Aircraft Logo
 
-Official Colors
+## Official Colors
 
-Black
+- Black
+- Gold
+- White
 
-Gold
+---
 
-White
+# Token Information
+
+| Property | Value |
+|----------|-------|
+| Name | Q8JAN |
+| Symbol | Q8JAN |
+| Blockchain | TRON |
+| Standard | TRC-20 |
+| Total Supply | 100,000,000,000 Q8JAN |
+| Decimals | 18 |
+| Transaction Tax | 0% |
 
 ---
 
 # Official Resources
 
-GitHub
+## Official Website
+
+https://jarrahnour.github.io/Q8JAN/
+
+## GitHub Repository
 
 https://github.com/JARRAHNOUR/Q8JAN
 
-Official Email
+## Official Email
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+q8janproject@gmail.com
 
-Official Website
+## Smart Contract
 
-(To be published after deployment.)
-
-Official Smart Contract
-
-(To be published after deployment.)
+To be published after the official TRON Mainnet deployment.
 
 ---
 
 # Media Usage
 
-The official Q8JAN logo and branding materials may be used when accurately referencing the project.
+The official Q8JAN logo and branding assets may be used when accurately referencing the project.
 
-Modification of official branding should not be made without permission from the project owner.
+Official branding must not be modified, altered, or misrepresented without permission from the project owner.
 
 ---
 
 # Press Contact
 
-Email
+**Email**
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+q8janproject@gmail.com
+
+---
+
+# Project Status
+
+Current Status:
+
+- ✅ Documentation Complete
+- ✅ Website Complete
+- ✅ GitHub Repository Published
+- ✅ Whitepaper Published
+- ⏳ TRON Mainnet Deployment Pending
+
+---
+
+# License
+
+This Media Kit is distributed under the MIT License.
 
 ---
 
 © 2026 Q8JAN
 
-All Rights Reserved.
+Released under the MIT License.
