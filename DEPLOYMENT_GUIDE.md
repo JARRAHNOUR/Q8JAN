@@ -6,9 +6,9 @@ Version 1.0
 
 # Overview
 
-This document describes the official deployment procedure for the Q8JAN smart contract on the BNB Smart Chain Mainnet.
+This document describes the official deployment procedure for the Q8JAN smart contract on the TRON Mainnet.
 
-Following this guide helps ensure a consistent, secure, and verifiable deployment process.
+Following this guide helps ensure a secure, transparent, and verifiable deployment process.
 
 ---
 
@@ -16,14 +16,13 @@ Following this guide helps ensure a consistent, secure, and verifiable deploymen
 
 Before deployment, ensure the following requirements are met:
 
-* Node.js installed
-* Hardhat environment configured
-* Project dependencies installed
-* MetaMask wallet configured
-* Sufficient BNB available for gas fees
-* BNB Smart Chain RPC endpoint configured
-* BscScan API Key available
-* GitHub repository synchronized
+- Node.js installed
+- TronWeb installed
+- Project dependencies installed
+- TronLink wallet configured
+- Sufficient TRX available for deployment fees
+- TRON Mainnet RPC configured
+- GitHub repository synchronized
 
 ---
 
@@ -32,10 +31,8 @@ Before deployment, ensure the following requirements are met:
 Configure the `.env` file before deployment.
 
 ```env
-PRIVATE_KEY=
-BNB_MAINNET_RPC_URL=
-BSCSCAN_API_KEY=
-INITIAL_OWNER=
+TRON_PRIVATE_KEY=
+TRON_FULL_HOST=https://api.trongrid.io
 ```
 
 Never share or publish your private key.
@@ -44,7 +41,7 @@ Never share or publish your private key.
 
 # Step 1 — Install Dependencies
 
-If required, install project dependencies.
+Install project dependencies.
 
 ```bash
 npm install
@@ -57,121 +54,124 @@ npm install
 Compile the project.
 
 ```bash
-npx hardhat compile
+npm run compile
 ```
 
 Expected result:
 
-```
-Compiled successfully.
+```text
+Build files generated successfully.
 ```
 
 ---
 
-# Step 3 — Execute Test Suite
+# Step 3 — Verify Build
 
-Run all available tests.
+Confirm that the following files exist inside the `build` directory:
 
-```bash
-npx hardhat test
-```
+- Q8JAN.abi.json
+- Q8JAN.bytecode.txt
+- Q8JAN.artifact.json
 
-Expected result:
-
-```
-All tests passed.
-```
-
-Deployment should not proceed unless every test passes successfully.
+Deployment should not proceed unless all build files are successfully generated.
 
 ---
 
-# Step 4 — Deploy the Smart Contract
+# Step 4 — Verify Deployment Wallet
 
-Deploy Q8JAN to BNB Smart Chain Mainnet.
+Confirm that the deployment wallet:
+
+- Is the intended deployment wallet.
+- Contains sufficient TRX.
+- Is connected to TRON Mainnet.
+
+You may verify readiness using:
 
 ```bash
-npx hardhat run scripts/deploy-q8jan.ts --network bscMainnet
+npm run deploy:check
+```
+
+---
+
+# Step 5 — Deploy the Smart Contract
+
+Deploy Q8JAN to TRON Mainnet.
+
+```bash
+npm run deploy
 ```
 
 After deployment, securely record:
 
-* Contract Address
-* Transaction Hash
-* Deployment Block Number
-* Deployment Wallet
+- Contract Address
+- Transaction Hash
+- Deployment Wallet
 
 ---
 
-# Step 5 — Verify the Contract
+# Step 6 — Verify the Contract
 
-Verify the source code on BscScan.
+Verify the deployed contract on TronScan.
 
-```bash
-npx hardhat run scripts/verify.ts --network bscMainnet
-```
+Confirm that:
 
-Expected result:
-
-```
-Contract verified successfully.
-```
+- Source code matches the deployed bytecode.
+- Contract information is publicly visible.
+- Token information is correct.
 
 ---
 
-# Step 6 — Validate Token Information
+# Step 7 — Validate Token Information
 
-Verify that all on-chain information matches the official documentation.
+Verify the following:
 
-Confirm:
-
-* Token Name
-* Token Symbol
-* Decimals
-* Total Supply
-* Burn Function
-* Owner Address
+- Token Name
+- Token Symbol
+- Decimals
+- Total Supply
+- Burn Function
+- Transaction Tax (0%)
 
 ---
 
-# Step 7 — Publish Official Information
+# Step 8 — Publish Official Information
 
-After successful verification, update the following resources:
+Update:
 
-* Official Website
-* GitHub Repository
-* Whitepaper
-* Tokenomics Documentation
-* Roadmap Documentation
+- Official Website
+- GitHub Repository
+- Whitepaper
+- Documentation
 
-Publish the official smart contract address in all locations.
+Publish the official smart contract address across all official resources.
 
 ---
 
-# Step 8 — Add Initial Liquidity
+# Step 9 — Add Initial Liquidity
 
 Create the initial liquidity pool.
 
 Recommended trading pair:
 
-```
-Q8JAN / BNB
+```text
+Q8JAN / TRX
 ```
 
-Verify that liquidity has been added successfully before public announcement.
+Verify that liquidity is active before announcing the public launch.
 
 ---
 
-# Step 9 — Final Security Review
+# Step 10 — Final Security Review
 
 Before launch, verify:
 
-* Contract ownership
-* Verified source code
-* Token supply
-* Contract address
-* Deployment records
-* Backup of deployment information
+- Contract Address
+- TronScan Verification
+- Token Supply
+- Liquidity Pool
+- Deployment Records
+- Website Information
+- GitHub Repository
 
 ---
 
@@ -181,13 +181,13 @@ When all steps have been completed successfully, the Q8JAN smart contract is con
 
 ---
 
-# Contact
+# Official Contact
 
-Email
+**Email**
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+q8janproject@gmail.com
 
-GitHub
+**GitHub**
 
 https://github.com/JARRAHNOUR/Q8JAN
 
@@ -195,4 +195,4 @@ https://github.com/JARRAHNOUR/Q8JAN
 
 © 2026 Q8JAN
 
-All Rights Reserved.
+Released under the MIT License.
