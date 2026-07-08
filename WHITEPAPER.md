@@ -6,33 +6,33 @@ Version 1.0
 
 # Introduction
 
-Q8JAN is a decentralized BEP-20 digital asset built on the BNB Smart Chain.
+Q8JAN is a decentralized TRC-20 digital asset built on the TRON blockchain.
 
-The project is designed around simplicity, transparency, security, and long-term sustainability.
+The project is designed around transparency, simplicity, security, and long-term sustainability while maintaining a fixed-supply economic model.
 
-Q8JAN follows a fixed-supply model with no minting capability, ensuring predictable token economics and protecting holders from inflation.
+Q8JAN is committed to providing a secure and transparent digital asset with publicly available documentation, open-source smart contract code, and verifiable on-chain deployment.
 
 ---
 
 # Mission
 
-Our mission is to build a secure and trusted digital asset that serves as a transparent foundation for future blockchain applications and community-driven development.
+Our mission is to build a secure, transparent, and community-oriented digital asset that serves as a reliable foundation for future blockchain applications and ecosystem growth.
 
 ---
 
 # Vision
 
-To establish Q8JAN as a reliable and recognized digital asset within the blockchain ecosystem through security, transparency, and responsible development.
+To establish Q8JAN as a trusted digital asset within the TRON ecosystem through responsible development, transparency, and long-term sustainability.
 
 ---
 
 # Core Principles
 
-* Transparency
-* Security
-* Simplicity
-* Community Growth
-* Long-Term Sustainability
+- Transparency
+- Security
+- Simplicity
+- Community Growth
+- Long-Term Sustainability
 
 ---
 
@@ -42,21 +42,17 @@ To establish Q8JAN as a reliable and recognized digital asset within the blockch
 
 **Symbol:** Q8JAN
 
-**Blockchain:** BNB Smart Chain
+**Blockchain:** TRON
 
-**Standard:** BEP-20
+**Standard:** TRC-20
 
 **Decimals:** 18
 
 **Total Supply:** 100,000,000,000 Q8JAN
 
-**Minting:** Disabled Forever
+**Minting:** Permanently Disabled
 
 **Burn:** Supported
-
-**Pause:** Emergency Only
-
-**Ownership:** Owner Controlled
 
 **Transaction Tax:** 0%
 
@@ -64,18 +60,17 @@ To establish Q8JAN as a reliable and recognized digital asset within the blockch
 
 # Smart Contract Features
 
-The smart contract is developed using OpenZeppelin Contracts and follows industry security standards.
+The Q8JAN smart contract is developed using OpenZeppelin Contracts and follows modern blockchain security standards.
 
-Features include:
+Core features include:
 
-* Fixed Supply
-* Burnable Tokens
-* Emergency Pause
-* Ownership Protection
-* No Hidden Mint Function
-* No Reflection Mechanism
-* No Transaction Tax
-* Standard BEP-20 Compatibility
+- Fixed Supply
+- Burn Function
+- No Mint Function
+- Zero Transaction Tax
+- Open Source Smart Contract
+- Public Contract Verification
+- TRC-20 Standard Compliance
 
 ---
 
@@ -83,89 +78,103 @@ Features include:
 
 Security is one of the highest priorities of the Q8JAN project.
 
-Security measures include:
+Implemented security measures include:
 
-* OpenZeppelin Contracts
-* Fixed Total Supply
-* Ownership Protection
-* Emergency Pause
-* Public Source Code
-* Contract Verification After Deployment
+- OpenZeppelin Contracts
+- Fixed Total Supply
+- Burn Function
+- Public Source Code
+- Contract Verification on TronScan
+- Transparent Development Process
+
+Future independent security audits may be conducted as the project evolves.
 
 ---
 
-# Token Distribution
+# Tokenomics
 
-**Total Supply**
+## Total Supply
 
 100,000,000,000 Q8JAN
 
-**Distribution**
+## Distribution
 
-* 100% Initial Supply
-* No Additional Minting
-* No Hidden Allocation
-* No Inflation
+| Allocation | Percentage | Amount |
+|------------|-----------:|-------:|
+| Founder & Treasury | 50% | 50,000,000,000 |
+| Liquidity | 30% | 30,000,000,000 |
+| Marketing & Community | 10% | 10,000,000,000 |
+| Future Development & Partnerships | 10% | 10,000,000,000 |
+
+The total supply is permanently fixed.
+
+No additional tokens can ever be minted.
 
 ---
 
 # Token Utility
 
-Q8JAN is designed as a transparent blockchain asset that may support future ecosystem development including:
+Q8JAN is designed as a transparent digital asset that may support future ecosystem development, including:
 
-* Community Participation
-* Digital Payments
-* Future Decentralized Applications
-* Exchange Trading
-* Wallet Integration
+- Community Participation
+- Digital Payments
+- Exchange Trading
+- Wallet Integration
+- Future Decentralized Applications
+- Ecosystem Partnerships
 
-Additional utilities may be introduced as the ecosystem evolves.
+Utility expansion will always prioritize sustainability and transparency.
 
 ---
 
 # Roadmap
 
-## Phase 1 – Development
+## Phase 1 — Foundation
 
-* Project Planning
-* Smart Contract Development
-* Documentation
-* Branding
-* Website Development
+- Project Planning
+- Smart Contract Development
+- Documentation
+- Branding
+- Official Website
+- GitHub Repository
+- Whitepaper
 
-**Status:** Completed
-
----
-
-## Phase 2 – Launch
-
-* Smart Contract Deployment
-* Contract Verification
-* Liquidity Addition
-* Website Update
-
-**Status:** Planned
+**Status:** ✅ Completed
 
 ---
 
-## Phase 3 – Growth
+## Phase 2 — Launch
 
-* Community Expansion
-* Marketing Campaigns
-* Exchange Listings
-* Ecosystem Development
+- TRON Mainnet Deployment
+- TronScan Verification
+- SunSwap Liquidity
+- Official Website Update
+- Public Launch
 
-**Status:** Planned
+**Status:** ⏳ Planned
 
 ---
 
-## Phase 4 – Expansion
+## Phase 3 — Growth
 
-* Additional Blockchain Support
-* Strategic Partnerships
-* Utility Expansion
+- Community Expansion
+- Marketing Campaigns
+- CoinGecko Submission
+- CoinMarketCap Submission
+- Strategic Partnerships
 
-**Status:** Future
+**Status:** ⏳ Planned
+
+---
+
+## Phase 4 — Ecosystem
+
+- Additional Integrations
+- Utility Expansion
+- Developer Support
+- Long-Term Ecosystem Growth
+
+**Status:** 🔮 Future
 
 ---
 
@@ -173,10 +182,11 @@ Additional utilities may be introduced as the ecosystem evolves.
 
 The project is committed to:
 
-* Honest Communication
-* Transparent Development
-* Public Documentation
-* Continuous Improvement
+- Honest Communication
+- Public Documentation
+- Open Development
+- Continuous Improvement
+- Responsible Project Management
 
 ---
 
@@ -184,9 +194,9 @@ The project is committed to:
 
 Cryptocurrency investments involve financial risk.
 
-Nothing contained within this document should be interpreted as financial or investment advice.
+Nothing contained within this document constitutes financial, legal, or investment advice.
 
-Users should conduct their own research before purchasing, holding, or trading any digital asset.
+Users should always perform their own research before purchasing, holding, or trading any digital asset.
 
 ---
 
@@ -194,7 +204,7 @@ Users should conduct their own research before purchasing, holding, or trading a
 
 **Official Website**
 
-(To be published after deployment.)
+https://jarrahnour.github.io/Q8JAN/
 
 **GitHub Repository**
 
@@ -202,11 +212,11 @@ https://github.com/JARRAHNOUR/Q8JAN
 
 **Official Email**
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+q8janproject@gmail.com
 
 **Smart Contract Address**
 
-(To be published after deployment.)
+To be published after the official TRON Mainnet deployment.
 
 ---
 
@@ -214,7 +224,7 @@ https://github.com/JARRAHNOUR/Q8JAN
 
 **Email**
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+q8janproject@gmail.com
 
 **GitHub**
 
@@ -222,6 +232,12 @@ https://github.com/JARRAHNOUR/Q8JAN
 
 ---
 
+# License
+
+Q8JAN is an open-source project released under the MIT License.
+
+---
+
 © 2026 Q8JAN
 
-All Rights Reserved.
+Released under the MIT License.
