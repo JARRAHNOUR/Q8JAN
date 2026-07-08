@@ -6,7 +6,7 @@ The following versions of Q8JAN are currently supported with security updates.
 
 | Version | Supported |
 | ------- | --------- |
-| 1.x     | ✅ Yes     |
+| 1.x | ✅ Yes |
 
 ---
 
@@ -22,16 +22,15 @@ Security is considered a fundamental part of the project's development lifecycle
 
 The Q8JAN smart contract includes the following security features:
 
-* Fixed Total Supply
-* Minting Permanently Disabled
-* Burn Function Supported
-* Emergency Pause Capability
-* Ownership Protection
-* OpenZeppelin Contracts
-* Standard BEP-20 Compliance
-* No Transaction Tax
-* No Hidden Mint Logic
-* Public Source Code
+- Fixed Total Supply
+- Minting Permanently Disabled
+- Burn Function Supported
+- TRC-20 Standard Compliance
+- OpenZeppelin Contracts
+- Zero Transaction Tax
+- No Hidden Mint Logic
+- Public Source Code
+- Contract Verification on TronScan (after deployment)
 
 ---
 
@@ -41,10 +40,10 @@ If you discover a security vulnerability, please report it privately before maki
 
 Please include:
 
-* Description of the vulnerability
-* Steps to reproduce
-* Potential impact
-* Suggested mitigation (if available)
+- Description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Suggested mitigation (if available)
 
 ---
 
@@ -54,7 +53,7 @@ Security reports should be sent to:
 
 **Email**
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+q8janproject@gmail.com
 
 ---
 
@@ -74,10 +73,11 @@ After receiving a valid report, the project will:
 
 This security policy currently applies to:
 
-* Smart Contract
-* Official GitHub Repository
-* Project Documentation
-* Official Website (after deployment)
+- TRON Smart Contract
+- Official GitHub Repository
+- Project Documentation
+- Official Website
+- GitHub Release Assets
 
 ---
 
@@ -89,6 +89,18 @@ Users should always perform their own due diligence before interacting with bloc
 
 ---
 
+## Current Status
+
+Security Review: ✅ Completed
+
+Internal Testing: ✅ Completed
+
+Third-Party Audit: ⏳ Planned
+
+Mainnet Deployment: ⏳ Pending
+
+---
+
 © 2026 Q8JAN
 
-All Rights Reserved.
+Released under the MIT License.
