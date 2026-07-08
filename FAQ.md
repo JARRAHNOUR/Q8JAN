@@ -8,19 +8,20 @@ This document answers the most common questions about the Q8JAN project.
 
 # What is Q8JAN?
 
-Q8JAN is a fixed-supply BEP-20 digital asset built on the BNB Smart Chain.
+Q8JAN is a decentralized TRC-20 digital asset built on the TRON blockchain.
 
-The project emphasizes transparency, security, simplicity, and long-term ecosystem development.
+The project is designed around transparency, security, simplicity, and long-term sustainability while maintaining a permanently fixed token supply.
 
 ---
 
 # What blockchain does Q8JAN use?
 
-The initial deployment is on:
+Q8JAN is deployed on:
 
-- BNB Smart Chain (BEP-20)
+- TRON Blockchain
+- TRC-20 Token Standard
 
-Future expansion to additional compatible blockchains, including TRON, may be considered after the successful operation of the BNB Smart Chain deployment.
+The initial official release is focused entirely on the TRON ecosystem.
 
 ---
 
@@ -28,9 +29,9 @@ Future expansion to additional compatible blockchains, including TRON, may be co
 
 Total Supply:
 
-100,000,000,000 Q8JAN
+**100,000,000,000 Q8JAN**
 
-This supply is fixed.
+The total supply is permanently fixed.
 
 ---
 
@@ -38,7 +39,7 @@ This supply is fixed.
 
 No.
 
-The smart contract permanently disables additional minting after deployment.
+The smart contract permanently disables any additional minting after deployment.
 
 ---
 
@@ -46,7 +47,7 @@ The smart contract permanently disables additional minting after deployment.
 
 Yes.
 
-Q8JAN supports voluntary token burning through the burn function.
+Q8JAN supports voluntary token burning.
 
 Burned tokens permanently reduce the circulating supply.
 
@@ -56,58 +57,74 @@ Burned tokens permanently reduce the circulating supply.
 
 No.
 
-There are:
+Q8JAN uses:
 
-- No Buy Tax
-- No Sell Tax
-- No Transfer Tax
+- 0% Buy Tax
+- 0% Sell Tax
+- 0% Transfer Tax
 
 ---
 
-# Is ownership renounced?
+# Is the smart contract open source?
 
-Not initially.
+Yes.
 
-Ownership may:
-
-- Remain with the development team.
-- Be transferred to a multisignature wallet.
-- Be transferred to a future legal entity.
-- Be transferred through a strategic acquisition.
-- Be renounced if appropriate.
+The smart contract source code is publicly available through the official GitHub repository.
 
 ---
 
 # Has the smart contract been verified?
 
-The contract will be verified on BscScan immediately after deployment.
+After deployment, the smart contract source code will be verified on **TronScan**.
+
+The official contract address will also be published through all official project channels.
 
 ---
 
 # Where can I buy Q8JAN?
 
-Following deployment, Q8JAN is planned to become available through decentralized exchanges on the BNB Smart Chain.
+After launch, Q8JAN will become available on **SunSwap** using the official trading pair:
 
-Official announcements will be published after launch.
+**Q8JAN / TRX**
+
+Official announcements will be published before trading begins.
 
 ---
 
 # Where can I find official information?
 
-Official information will be published through:
+Official information is available through:
 
 - Official Website
 - GitHub Repository
 - Whitepaper
-- Future official community channels
+- Litepaper
+- Official Documentation
+
+Future community announcements will also be published through the project's official communication channels.
 
 ---
 
-# Is Q8JAN open source?
+# Is Q8JAN audited?
 
-Yes.
+The project has completed an internal security review.
 
-The smart contract source code is maintained in the official GitHub repository.
+Additional independent third-party security audits may be conducted in future releases.
+
+---
+
+# What makes Q8JAN different?
+
+Q8JAN focuses on simplicity and transparency.
+
+Key characteristics include:
+
+- Fixed Supply
+- Zero Transaction Tax
+- Burn Function
+- Open Source Development
+- Professional Documentation
+- Long-Term Development Strategy
 
 ---
 
@@ -115,8 +132,26 @@ The smart contract source code is maintained in the official GitHub repository.
 
 Nothing contained in this document constitutes financial, legal, or investment advice.
 
-Always conduct your own research before interacting with digital assets.
+Always conduct your own independent research before purchasing, holding, or trading any digital asset.
 
 ---
 
-© 2026 Q8JAN Development Team
+# Official Resources
+
+**Official Website**
+
+https://jarrahnour.github.io/Q8JAN/
+
+**GitHub Repository**
+
+https://github.com/JARRAHNOUR/Q8JAN
+
+**Official Email**
+
+q8janproject@gmail.com
+
+---
+
+© 2026 Q8JAN
+
+Released under the MIT License.
