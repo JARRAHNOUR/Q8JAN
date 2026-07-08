@@ -2,24 +2,19 @@
 
 **Version:** 1.0  
 **Release:** July 2026  
-**Blockchain:** BNB Smart Chain (BEP-20)
+**Blockchain:** TRON (TRC-20)
 
 ---
 
 # Executive Summary
 
-Q8JAN is a fixed-supply digital asset built on the BNB Smart Chain using the BEP-20 token standard.
+Q8JAN is a decentralized fixed-supply digital asset built on the TRON blockchain using the TRC-20 token standard.
 
-The project has been designed around four fundamental principles:
+The project is designed around transparency, security, simplicity, and long-term sustainability.
 
-- Transparency
-- Security
-- Simplicity
-- Sustainable Long-Term Growth
+Unlike many digital assets that depend on complex tokenomics, hidden minting mechanisms, or transaction taxes, Q8JAN follows a straightforward economic model based on a permanently fixed supply, zero transaction tax, and transparent smart contract architecture.
 
-Unlike many blockchain projects that rely on complex tokenomics or transaction taxes, Q8JAN adopts a straightforward architecture with a permanently fixed supply, zero transaction tax, and no additional minting after deployment.
-
-The objective is to establish a reliable blockchain ecosystem that prioritizes security, trust, and long-term value creation while remaining simple for users, developers, and strategic partners.
+The objective of the project is to establish a reliable digital asset supported by open-source development, professional documentation, and responsible long-term ecosystem growth.
 
 ---
 
@@ -27,15 +22,15 @@ The objective is to establish a reliable blockchain ecosystem that prioritizes s
 
 Q8JAN is an independently developed blockchain project focused on delivering a secure, transparent, and efficient digital asset ecosystem.
 
-The smart contract has been built using OpenZeppelin standards and developed within the Hardhat framework to ensure reliability and maintainability.
+The smart contract has been developed using Solidity and OpenZeppelin Contracts while following widely accepted blockchain security standards.
 
-Every component of the project has been designed to minimize unnecessary complexity while maintaining compatibility with the broader EVM ecosystem.
+Every component of the project has been designed to minimize unnecessary complexity while maintaining transparency and long-term maintainability.
 
 ---
 
 # Vision
 
-To build a trusted digital asset ecosystem that promotes transparency, decentralization, security, and sustainable growth across blockchain technologies.
+To establish Q8JAN as a trusted and transparent digital asset within the TRON ecosystem while supporting sustainable long-term growth.
 
 ---
 
@@ -45,7 +40,8 @@ The mission of Q8JAN is to provide a professionally developed digital asset with
 
 - Fixed token supply
 - Transparent smart contract
-- No hidden transaction taxes
+- Zero transaction tax
+- Public documentation
 - Community-oriented ecosystem
 - Long-term development strategy
 
@@ -53,23 +49,23 @@ The mission of Q8JAN is to provide a professionally developed digital asset with
 
 # Core Principles
 
-Q8JAN follows several fundamental principles that guide every stage of development.
+Q8JAN is developed according to several fundamental principles.
 
 ## Transparency
 
-Project information, documentation, and smart contract design are intended to remain publicly accessible whenever possible.
+Project documentation, development progress, and smart contract information remain publicly available whenever possible.
 
 ## Security
 
-Security is prioritized throughout development by following industry standards and minimizing unnecessary contract complexity.
+Security is prioritized throughout development by following industry best practices and minimizing unnecessary complexity.
 
 ## Simplicity
 
-The project intentionally avoids excessive mechanisms that may increase technical or operational risks.
+The project intentionally avoids unnecessary mechanisms that may increase technical or operational risks.
 
 ## Sustainability
 
-Development decisions are intended to support long-term ecosystem growth rather than short-term market speculation.
+Development decisions are made with long-term ecosystem stability rather than short-term market speculation.
 
 ---
 
@@ -79,57 +75,56 @@ Development decisions are intended to support long-term ecosystem growth rather 
 |----------|-------|
 | Token Name | Q8JAN |
 | Symbol | Q8JAN |
-| Network | BNB Smart Chain |
-| Standard | BEP-20 |
-| Total Supply | 100,000,000,000 |
+| Blockchain | TRON |
+| Standard | TRC-20 |
+| Total Supply | 100,000,000,000 Q8JAN |
 | Decimals | 18 |
-| Mint Function | Disabled |
-| Burn Function | Enabled |
+| Mint Function | Permanently Disabled |
+| Burn Function | Supported |
 | Transaction Tax | 0% |
 
 ---
+
 # Tokenomics
 
-The Q8JAN token follows a fixed allocation model designed to support long-term ecosystem development while maintaining transparency.
+The Q8JAN token follows a transparent fixed allocation model.
 
 | Allocation | Percentage | Amount |
 |------------|-----------:|----------------------:|
-| Public Liquidity | 40% | 40,000,000,000 Q8JAN |
-| Treasury Reserve | 20% | 20,000,000,000 Q8JAN |
-| Ecosystem Development | 15% | 15,000,000,000 Q8JAN |
-| Strategic Partnerships | 10% | 10,000,000,000 Q8JAN |
+| Founder & Treasury | 50% | 50,000,000,000 Q8JAN |
+| Liquidity | 30% | 30,000,000,000 Q8JAN |
 | Marketing & Community | 10% | 10,000,000,000 Q8JAN |
-| Team Reserve | 5% | 5,000,000,000 Q8JAN |
+| Future Development & Partnerships | 10% | 10,000,000,000 Q8JAN |
 
-The total allocation always equals the fixed maximum supply of:
+The total allocation always equals the permanently fixed supply of:
 
 **100,000,000,000 Q8JAN**
 
-No additional tokens can ever be created after deployment.
+No additional tokens can ever be minted after deployment.
 
 ---
 
 # Smart Contract Overview
 
-The Q8JAN smart contract has been developed using audited OpenZeppelin libraries and follows established blockchain development standards.
+The Q8JAN smart contract has been developed using audited OpenZeppelin Contracts and follows established blockchain development standards.
 
 Current implementation includes:
 
-- ERC20 Standard
-- ERC20Burnable
-- Ownable
+- TRC-20 Standard
+- Burn Function
 - Fixed Supply
 - No Mint Function
-- No Transaction Tax
+- Zero Transaction Tax
+- Public Source Code
 
-The contract was developed using:
+The contract has been developed using:
 
-- Solidity 0.8.28
-- Hardhat 3
-- TypeScript
-- Viem
+- Solidity 0.8.20
+- OpenZeppelin Contracts
+- TronWeb
+- Node.js
 
-All available tokens are minted only once during deployment.
+All tokens are minted only once during deployment.
 
 ---
 
@@ -137,53 +132,53 @@ All available tokens are minted only once during deployment.
 
 Security is one of the primary design goals of Q8JAN.
 
-The project minimizes unnecessary complexity and follows widely accepted development standards.
+The project follows a conservative engineering approach focused on reliability and transparency.
 
 Security characteristics include:
 
 - OpenZeppelin implementation
-- Immutable fixed supply
+- Permanently fixed supply
 - No hidden minting
-- No transaction tax logic
 - Burn support
-- Transparent source code
-- Professional documentation
-- Version controlled development through GitHub
+- Public source code
+- Transparent documentation
+- GitHub version control
+- Contract verification on TronScan after deployment
 
-Future contract verification will be completed through BscScan after deployment.
+Future independent security audits may be conducted as the ecosystem evolves.
 
 ---
 
 # Governance
 
-During the initial phase, administrative ownership remains under the project owner to support deployment and ecosystem development.
+During the initial launch phase, project management remains under the project team to support deployment, liquidity management, ecosystem development, and long-term growth.
 
 Future governance options may include:
 
-- Transfer to a multisignature wallet.
-- Transfer to a registered legal entity.
-- Transfer during a strategic acquisition.
-- Ownership renouncement if appropriate.
+- Multi-signature treasury management
+- Community participation
+- Strategic partnerships
+- Expanded governance mechanisms as the ecosystem matures
 
-The governance model will always prioritize transparency and long-term project stability.
+All governance decisions will prioritize transparency and long-term sustainability.
 
 ---
 
 # Treasury Policy
 
-Treasury assets are intended to support the long-term development of the Q8JAN ecosystem.
+Treasury assets are intended to support long-term ecosystem development.
 
 Potential treasury usage includes:
 
 - Infrastructure
-- Development
+- Software Development
 - Security Audits
-- Exchange Listings
 - Marketing
+- Community Growth
+- Exchange Listings
 - Strategic Partnerships
-- Community Programs
 
-Treasury decisions will be documented whenever appropriate.
+Treasury activities will be documented whenever appropriate.
 
 ---
 
@@ -191,80 +186,86 @@ Treasury decisions will be documented whenever appropriate.
 
 The long-term ecosystem may include:
 
-- Official Wallet Support
-- Blockchain Utilities
-- Community Programs
-- Educational Resources
-- Developer Tools
-- Strategic Integrations
-- Cross-chain Expansion
+- Wallet integrations
+- Community tools
+- Developer resources
+- Educational content
+- Strategic partnerships
+- Additional blockchain integrations
+- Future decentralized applications
 
-The initial focus remains the successful deployment and operation of the BNB Smart Chain version.
-
+The initial focus remains the successful deployment and operation of the TRON version of Q8JAN.
 ---
 
 # Development Philosophy
 
-Q8JAN follows a conservative engineering philosophy.
+Q8JAN follows a conservative engineering philosophy focused on long-term stability and transparency.
 
-The project favors:
+The project prioritizes:
 
-- Security over unnecessary features.
-- Stability over rapid expansion.
-- Transparency over complexity.
-- Sustainable development over short-term trends.
+- Security over unnecessary features
+- Stability over rapid expansion
+- Transparency over complexity
+- Sustainable development over short-term trends
+- Community trust over speculation
 
-This philosophy guides both technical and operational decisions.
+Every technical and operational decision is guided by these principles.
 
 ---
+
 # Roadmap
 
 ## Phase 1 — Foundation ✅
 
 Completed:
 
+- Project Planning
 - Smart Contract Development
-- Website Development
+- Official Website
 - GitHub Repository
 - Whitepaper
 - Litepaper
 - Documentation
 - Internal Testing
+- Branding
 
 ---
 
-## Phase 2 — Mainnet Launch
+## Phase 2 — Launch
 
 Planned activities include:
 
-- Deploy smart contract on BNB Smart Chain Mainnet
-- Verify source code on BscScan
-- Publish official contract address
-- Complete launch documentation
+- Deploy Smart Contract to TRON Mainnet
+- Verify Source Code on TronScan
+- Publish Official Contract Address
+- Add Initial SunSwap Liquidity
+- Public Project Launch
 
 ---
 
-## Phase 3 — Ecosystem Launch
+## Phase 3 — Growth
 
 Following deployment:
 
-- Initial Liquidity
-- PancakeSwap Listing
-- Community Growth
+- Community Expansion
 - Marketing Campaigns
+- CoinGecko Submission
+- CoinMarketCap Submission
 - Strategic Partnerships
+- Ecosystem Development
 
 ---
 
-## Phase 4 — Expansion
+## Phase 4 — Ecosystem Expansion
 
 Future development may include:
 
-- TRON Deployment
-- Additional Ecosystem Services
+- Additional Utilities
+- Developer Resources
+- Ecosystem Integrations
 - Exchange Listings
-- Cross-chain Integration
-- Community Governance Expansion
+- Cross-Chain Integrations
+- Long-Term Community Governance
 
 ---
 
@@ -274,30 +275,34 @@ Participation in blockchain projects involves various risks.
 
 These include, but are not limited to:
 
-- Market volatility
-- Regulatory changes
-- Smart contract risks
-- Liquidity risks
-- Technology risks
-- Cybersecurity threats
+- Market Volatility
+- Regulatory Changes
+- Smart Contract Risks
+- Liquidity Risks
+- Cybersecurity Risks
+- Technology Risks
 
-Users should evaluate these risks carefully before participating.
+Users should carefully evaluate these risks before purchasing, holding, or trading any digital asset.
 
 ---
 
 # Official Resources
 
-Official project resources include:
+Official Website
+
+https://jarrahnour.github.io/Q8JAN/
 
 GitHub Repository
 
 https://github.com/JARRAHNOUR/Q8JAN
 
-Official Website
+Official Email
 
-https://jarrahnour.github.io/Q8JAN/
+q8janproject@gmail.com
 
-Future official communication channels will be announced after launch.
+Smart Contract Address
+
+To be published after the official TRON Mainnet deployment.
 
 ---
 
@@ -307,32 +312,32 @@ This Litepaper is provided for informational purposes only.
 
 Nothing contained in this document constitutes:
 
-- Financial advice
-- Investment advice
-- Legal advice
-- Tax advice
+- Financial Advice
+- Investment Advice
+- Legal Advice
+- Tax Advice
 
 Ownership of digital assets carries financial risk.
 
 Every participant should conduct independent research before making any financial decision.
 
-The project reserves the right to improve documentation, infrastructure, and ecosystem planning as development progresses.
+The project may continue improving its documentation, infrastructure, and ecosystem as development progresses.
 
 ---
 
 # Conclusion
 
-Q8JAN has been designed with a clear objective:
+Q8JAN has been developed with a clear objective:
 
-To create a transparent, secure, and professionally developed digital asset that emphasizes long-term sustainability over unnecessary complexity.
+To establish a transparent, secure, and professionally managed digital asset that prioritizes long-term sustainability over unnecessary complexity.
 
-The project combines a fixed token supply, audited development standards, comprehensive documentation, and a structured roadmap to provide a strong technical foundation for future ecosystem growth.
+The project combines a permanently fixed token supply, open-source development, comprehensive documentation, and responsible ecosystem planning to provide a strong technical foundation for future growth.
 
 As development continues, Q8JAN will remain committed to transparency, security, responsible governance, and continuous improvement.
 
 ---
 
-**Document Information**
+# Document Information
 
 Document: Litepaper
 
@@ -342,10 +347,18 @@ Status: Pre-Launch
 
 Project: Q8JAN
 
-Blockchain: BNB Smart Chain (BEP-20)
+Blockchain: TRON (TRC-20)
 
 Year: 2026
 
 ---
 
-© 2026 Q8JAN Development Team. All Rights Reserved.
+# License
+
+This Litepaper is published under the MIT License.
+
+---
+
+© 2026 Q8JAN
+
+Released under the MIT License.
