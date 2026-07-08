@@ -10,6 +10,9 @@
 | Standard | TRC-20 |
 | Decimals | 18 |
 | Total Supply | 100,000,000,000 Q8JAN |
+| Minting | Disabled Forever |
+| Burn | Enabled |
+| Transaction Tax | 0% |
 
 ---
 
@@ -55,6 +58,18 @@ The initial planned trading pair is:
 ## Founder & Treasury
 
 The Founder & Treasury allocation is intended to support long-term project development, liquidity management, ecosystem growth, and future strategic initiatives.
+
+---
+
+## Project Resources
+
+Official GitHub
+
+<https://github.com/JARRAHNOUR/Q8JAN>
+
+Official Email
+
+<q8janproject@gmail.com>
 
 ---
 
