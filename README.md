@@ -54,7 +54,7 @@ The smart contract is built using:
 
 # Project Structure
 
-```
+```text
 tron/
 ├── contracts/
 ├── scripts/
@@ -132,7 +132,7 @@ Current Status:
 
 # Repository
 
-GitHub Repository
+Official GitHub Repository:
 
 https://github.com/JARRAHNOUR/Q8JAN
 
@@ -140,7 +140,7 @@ https://github.com/JARRAHNOUR/Q8JAN
 
 # Official Contact
 
-Email
+Email:
 
 q8janproject@gmail.com
 
@@ -156,4 +156,4 @@ See the LICENSE file for more information.
 
 © 2026 Q8JAN
 
-All Rights Reserved.
+Released under the MIT License.
