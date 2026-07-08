@@ -24,6 +24,13 @@ Release Date: July 2026
 * Official website.
 * Build artifacts.
 * Environment template.
+* Audit report.
+* Security policy.
+* Launch checklist.
+* Media press kit.
+* CoinGecko submission pack.
+* CoinMarketCap submission pack.
+* Launch pack.
 
 ## Security
 
@@ -31,8 +38,11 @@ Release Date: July 2026
 * No transaction tax.
 * Fixed supply.
 * Open-source smart contract.
+* Internal security review completed.
 
 ## Status
+
+Project documentation and deployment preparation are complete.
 
 Ready for deployment on the TRON Mainnet.
 
