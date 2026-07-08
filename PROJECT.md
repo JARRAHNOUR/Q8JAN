@@ -1,33 +1,85 @@
 # Q8JAN
 
-## Project Information
+# Project Information
 
-Name: Q8JAN
+**Project Name**
 
-Symbol: Q8JAN
+Q8JAN
 
-Networks:
-- BNB Smart Chain (BEP-20)
-- TRON (TRC-20)
+**Token Symbol**
 
-Total Supply:
-100,000,000,000
+Q8JAN
 
-Decimals:
+**Blockchain**
+
+TRON
+
+**Token Standard**
+
+TRC-20
+
+**Total Supply**
+
+100,000,000,000 Q8JAN
+
+**Decimals**
+
 18
 
-Features:
+---
+
+# Core Features
+
 - Fixed Supply
-- Burnable
-- No Mint
-- No Tax
-- No Freeze
-- Ownable
+- Burn Function Supported
+- No Mint Function
+- Zero Transaction Tax
+- Open Source Smart Contract
+- Professional Documentation
+- Transparent Development
+- TRC-20 Standard Compliance
 
-## Current Status
+---
 
-- BEP-20 contract is ready.
-- Hardhat is configured.
-- Website is created.
-- GitHub repository is active.
-- Deployment is pending because the wallet has 0 tBNB.
+# Technology
+
+- Solidity 0.8.20
+- OpenZeppelin Contracts
+- TronWeb
+- Node.js
+
+---
+
+# Current Status
+
+- ✅ Smart Contract Completed
+- ✅ Website Completed
+- ✅ Documentation Completed
+- ✅ Branding Completed
+- ✅ GitHub Repository Published
+- ✅ GitHub Release v1.0 Published
+- ⏳ TRON Mainnet Deployment Pending
+- ⏳ TronScan Verification Pending
+- ⏳ SunSwap Liquidity Pending
+
+---
+
+# Official Resources
+
+**Official Website**
+
+https://jarrahnour.github.io/Q8JAN/
+
+**GitHub Repository**
+
+https://github.com/JARRAHNOUR/Q8JAN
+
+**Official Email**
+
+q8janproject@gmail.com
+
+---
+
+© 2026 Q8JAN
+
+Released under the MIT License.
