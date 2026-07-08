@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to the Q8JAN project.
 
-We welcome constructive feedback, improvements, and responsible contributions that help strengthen the ecosystem.
+We welcome constructive feedback, improvements, and responsible contributions that help strengthen the Q8JAN ecosystem.
 
 ---
 
@@ -25,19 +25,22 @@ Before submitting changes:
 
 1. Fork the repository.
 2. Create a feature branch.
-3. Write clean, readable code.
+3. Write clean and readable code.
 4. Test your changes.
 5. Submit a Pull Request with a clear description.
 
 ---
 
-# Coding Standards
+# Development Standards
+
+Contributors are encouraged to follow these principles:
 
 - Follow Solidity best practices.
-- Use OpenZeppelin standards whenever appropriate.
-- Keep the code simple and readable.
+- Use OpenZeppelin Contracts whenever appropriate.
+- Follow TRON (TRC-20) development standards.
+- Keep the code simple, secure, and well documented.
 - Avoid unnecessary complexity.
-- Document important functions.
+- Maintain compatibility with the project's architecture.
 
 ---
 
@@ -54,7 +57,7 @@ Improve deployment script
 
 Update whitepaper
 
-Refactor token tests
+Refactor smart contract
 ```
 
 ---
@@ -64,17 +67,18 @@ Refactor token tests
 Please ensure that every Pull Request:
 
 - Has a clear purpose.
-- Includes testing when applicable.
+- Includes testing where applicable.
 - Does not introduce unnecessary dependencies.
-- Maintains backward compatibility whenever possible.
+- Maintains compatibility with the existing project.
+- Includes updated documentation when required.
 
 ---
 
 # Code of Conduct
 
-By participating in this project, contributors agree to act respectfully and professionally.
+By participating in this project, contributors agree to communicate respectfully and professionally.
 
-Harassment, abusive behavior, spam, or malicious contributions are not acceptable.
+Harassment, abusive behavior, spam, or malicious contributions will not be tolerated.
 
 ---
 
@@ -82,7 +86,7 @@ Harassment, abusive behavior, spam, or malicious contributions are not acceptabl
 
 Do not disclose security vulnerabilities publicly.
 
-Please follow the instructions described in SECURITY.md.
+Please follow the responsible disclosure process described in SECURITY.md.
 
 ---
 
@@ -92,6 +96,12 @@ By contributing to Q8JAN, you agree that your contributions will be licensed und
 
 ---
 
-Thank you for helping improve Q8JAN.
+# Thank You
 
-© 2026 Q8JAN Development Team
+Thank you for helping improve Q8JAN and supporting the project's long-term development.
+
+---
+
+© 2026 Q8JAN
+
+Released under the MIT License.
