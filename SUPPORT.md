@@ -2,62 +2,70 @@
 
 ## Q8JAN Support
 
-Thank you for your interest in Q8JAN.
+Thank you for your interest in the Q8JAN project.
 
-This document explains how to obtain support and where official information will be published.
-
----
-
-## Official Support
-
-Official support channels will be announced after the public launch.
-
-Future support channels may include:
-
-- Official Website
-- Official Email
-- GitHub Repository
-- Community Channels
+This document explains how to obtain official support and where project information will be published.
 
 ---
 
-## Documentation
+# Official Support
 
-Before requesting support, please review:
+Official support is available through the following channels:
+
+**Official Website**
+
+https://jarrahnour.github.io/Q8JAN/
+
+**GitHub Repository**
+
+https://github.com/JARRAHNOUR/Q8JAN
+
+**Official Email**
+
+q8janproject@gmail.com
+
+Additional community channels will be announced after the official TRON Mainnet launch.
+
+---
+
+# Documentation
+
+Before requesting support, please review the official documentation:
 
 - README.md
-- Whitepaper
-- Litepaper
-- SECURITY.md
+- WHITEPAPER.md
+- LITEPAPER.md
 - FAQ.md
+- SECURITY.md
+- CHANGELOG.md
 
-Many common questions are already answered in the project documentation.
-
----
-
-## Bug Reports
-
-If you discover a bug:
-
-1. Verify that it can be reproduced.
-2. Provide clear steps to reproduce the issue.
-3. Include screenshots or logs if applicable.
-4. Describe the expected behavior.
-5. Describe the actual behavior.
+Many common questions are already answered within the documentation.
 
 ---
 
-## Security Issues
+# Bug Reports
 
-Please do NOT publish security vulnerabilities publicly.
+If you discover a bug, please provide:
 
-Follow the responsible disclosure process described in SECURITY.md.
+1. A clear description of the issue.
+2. Steps required to reproduce it.
+3. Expected behavior.
+4. Actual behavior.
+5. Screenshots or logs (if applicable).
 
 ---
 
-## Feature Requests
+# Security Issues
 
-Suggestions for improvements are welcome.
+Please do **not** disclose security vulnerabilities publicly.
+
+Report security-related issues privately using the instructions provided in **SECURITY.md**.
+
+---
+
+# Feature Requests
+
+Suggestions and improvements are always welcome.
 
 Examples include:
 
@@ -66,23 +74,26 @@ Examples include:
 - Developer tools
 - Community features
 - Ecosystem utilities
+- User experience improvements
 
 ---
 
-## Response Policy
+# Response Policy
 
-The Q8JAN Development Team will review requests as resources permit.
+Support requests will be reviewed as resources permit.
 
-Submitting a request does not guarantee implementation.
+Submitting a request does not guarantee implementation, but every report and suggestion is appreciated.
 
 ---
 
-## Disclaimer
+# Disclaimer
 
 Support is provided on a best-effort basis.
 
-Availability may change as the project grows.
+Response times may vary depending on project priorities and available resources.
 
 ---
 
-© 2026 Q8JAN Development Team
+© 2026 Q8JAN
+
+Released under the MIT License.
