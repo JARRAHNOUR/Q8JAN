@@ -1,6 +1,6 @@
 # Q8JAN
 
-## Investor One Pager
+# Investor One Pager
 
 Version 1.0
 
@@ -8,34 +8,62 @@ Version 1.0
 
 # Project Overview
 
-Q8JAN is a fixed-supply blockchain digital asset developed with a strong focus on transparency, simplicity, and long-term sustainability.
+Q8JAN is a decentralized TRC-20 digital asset built on the TRON blockchain.
 
-The project follows a conservative development philosophy by avoiding unnecessary token mechanics and prioritizing security, reliability, and clear documentation.
+The project is designed around transparency, security, simplicity, and long-term sustainability while maintaining a permanently fixed token supply and zero transaction tax.
+
+Q8JAN is supported by open-source development, professional documentation, and a transparent deployment strategy.
 
 ---
 
-# Project Highlights
+# Investment Highlights
 
-* Fixed Total Supply
-* No Inflation
-* No Hidden Minting
-* Burn Supported
-* Zero Transaction Tax
-* Open Source Development
-* Professional Documentation
-* Security-Oriented Design
+- TRON (TRC-20) Digital Asset
+- Fixed Supply: 100,000,000,000 Q8JAN
+- Zero Transaction Tax
+- No Mint Function
+- Burn Function Supported
+- Open Source Smart Contract
+- Professional Documentation
+- Transparent Development
+- Long-Term Ecosystem Strategy
+
+---
+
+# Token Information
+
+| Property | Value |
+|----------|-------|
+| Name | Q8JAN |
+| Symbol | Q8JAN |
+| Blockchain | TRON |
+| Standard | TRC-20 |
+| Total Supply | 100,000,000,000 |
+| Decimals | 18 |
+| Transaction Tax | 0% |
+
+---
+
+# Token Allocation
+
+| Allocation | Percentage |
+|------------|-----------:|
+| Founder & Treasury | 50% |
+| Liquidity | 30% |
+| Marketing & Community | 10% |
+| Future Development & Partnerships | 10% |
 
 ---
 
 # Mission
 
-Build a transparent and trustworthy digital asset that provides a solid foundation for future ecosystem development.
+Build a transparent, secure, and community-oriented digital asset that provides a strong foundation for long-term ecosystem development.
 
 ---
 
 # Vision
 
-Create a sustainable blockchain project that values security, community, and long-term growth over short-term speculation.
+Establish Q8JAN as a trusted digital asset within the TRON ecosystem through responsible development, transparency, and sustainable growth.
 
 ---
 
@@ -43,40 +71,59 @@ Create a sustainable blockchain project that values security, community, and lon
 
 ✅ Smart Contract Completed
 
-✅ Testing Completed
-
 ✅ Documentation Completed
 
-✅ Branding Completed
+✅ Whitepaper Published
+
+✅ Litepaper Published
 
 ✅ Website Completed
 
-✅ GitHub Repository Ready
+✅ GitHub Repository Published
 
-⏳ Mainnet Deployment Pending
+✅ GitHub Release v1.0 Published
 
----
+⏳ TRON Mainnet Deployment Pending
 
-# Development Philosophy
+⏳ TronScan Verification Pending
 
-Q8JAN follows a simple approach.
-
-Every future improvement will be introduced only after careful planning, security review, and sufficient testing.
+⏳ SunSwap Liquidity Pending
 
 ---
 
-# Official Contact
+# Why Q8JAN?
 
-Email
+- Transparent Tokenomics
+- Fixed Supply Model
+- Zero Inflation
+- Security-Focused Development
+- Professional Documentation
+- Long-Term Project Vision
 
-[q8janproject@gmail.com](mailto:q8janproject@gmail.com)
+---
 
-GitHub
+# Official Resources
+
+**Official Website**
+
+https://jarrahnour.github.io/Q8JAN/
+
+**GitHub Repository**
 
 https://github.com/JARRAHNOUR/Q8JAN
+
+**Official Email**
+
+q8janproject@gmail.com
+
+---
+
+# Disclaimer
+
+This document is provided for informational purposes only and does not constitute financial, legal, or investment advice.
 
 ---
 
 © 2026 Q8JAN
 
-All Rights Reserved.
+Released under the MIT License.
