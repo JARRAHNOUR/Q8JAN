@@ -1,71 +1,109 @@
 # Q8JAN Release Notes
 
 ## Version 1.0.0
+
 Release Date: July 2026
 
 ---
 
-## Overview
+# Overview
 
 Version 1.0.0 is the first official pre-launch release of the Q8JAN project.
 
-This release establishes the project's technical foundation and prepares the ecosystem for deployment on BNB Smart Chain.
+This release establishes the project's technical foundation and prepares the ecosystem for deployment on the TRON blockchain.
 
 ---
 
-## Highlights
+# Highlights
 
-- Initial BEP-20 smart contract completed.
+- Initial TRC-20 smart contract completed.
 - Fixed total supply of 100,000,000,000 Q8JAN.
-- Burn functionality enabled.
-- No mint functionality.
-- No transaction taxes.
-- Smart contract built with OpenZeppelin.
-- Hardhat 3 development environment.
-- TypeScript and Viem integration.
-- Official project website published.
+- Burn Function implemented.
+- No Mint Function.
+- Zero Transaction Tax.
+- Smart contract developed using OpenZeppelin Contracts.
+- TronWeb integration completed.
+- Official website completed.
 - GitHub repository organized.
-- Whitepaper completed.
+- Whitepaper published.
+- Litepaper published.
 - Professional documentation package completed.
+- GitHub Release v1.0 published.
 
 ---
 
-## Documentation Included
+# Documentation Included
 
 - README.md
-- LICENSE
+- WHITEPAPER.md
+- LITEPAPER.md
+- CHANGELOG.md
 - SECURITY.md
 - CONTRIBUTING.md
-- CODE_OF_CONDUCT.md
-- SUPPORT.md
+- AUDIT_CHECKLIST.md
+- DEPLOYMENT_GUIDE.md
+- LAUNCH_CHECKLIST.md
+- MEDIA_KIT.md
+- INVESTOR_ONE_PAGER.md
 - FAQ.md
-- CHANGELOG.md
-- Whitepaper
+- LICENSE
 
 ---
 
-## Current Status
+# Current Status
 
-The project is currently in the **Pre-Launch** stage.
+Project Status:
 
-Technical development is complete.
+**Pre-Launch**
 
-The remaining launch activities include:
+Completed:
 
-- Deploying the smart contract to BNB Smart Chain Mainnet.
-- Verifying the contract on BscScan.
-- Adding liquidity.
-- Publishing the official contract address.
-- Launching on PancakeSwap.
-- Submitting the project to CoinGecko.
-- Submitting the project to CoinMarketCap.
+- Smart Contract
+- Website
+- Documentation
+- Branding
+- GitHub Repository
+- GitHub Release
+
+Pending:
+
+- TRON Mainnet Deployment
+- TronScan Contract Verification
+- SunSwap Liquidity
+- Official Public Launch
+- CoinGecko Submission
+- CoinMarketCap Submission
 
 ---
 
-## Thank You
+# Next Milestones
+
+The next planned milestones include:
+
+- Deploy the smart contract to TRON Mainnet.
+- Verify the source code on TronScan.
+- Publish the official contract address.
+- Add initial SunSwap liquidity.
+- Update the official website.
+- Submit the project to CoinGecko.
+- Submit the project to CoinMarketCap.
+
+---
+
+# Thank You
 
 Thank you to everyone supporting the Q8JAN project.
 
+We appreciate every contributor, supporter, and community member helping build the future of Q8JAN.
+
 ---
 
-© 2026 Q8JAN Development Team
+# License
+
+This release is distributed under the MIT License.
+
+---
+
+© 2026 Q8JAN
+
+Released under the MIT License.
