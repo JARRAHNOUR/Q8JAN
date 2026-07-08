@@ -48,8 +48,8 @@ No additional tokens can ever be created.
 Token holders may permanently burn their own tokens.
 
 ---
-
 ## No Transaction Tax
+Minting Disabled Forever
 
 Q8JAN does not charge transaction taxes or hidden transfer fees.
 
@@ -102,6 +102,15 @@ The initial trading pair is planned to be:
 - Future Utilities
 
 ---
+# Project Resources
+
+Official GitHub
+
+https://github.com/JARRAHNOUR/Q8JAN
+
+Official Email
+
+q8janproject@gmail.com
 
 # Disclaimer
 
