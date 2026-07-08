@@ -7,15 +7,22 @@
 ![Version](https://img.shields.io/badge/Version-v1.0.0-orange)
 
 ![Status](https://img.shields.io/badge/Status-Pre--Deployment-yellow)
+
 # Q8JAN TRON
 
 ## Overview
 
 Q8JAN is a fixed-supply TRC-20 digital asset built for deployment on the TRON blockchain.
 
-The project is designed with a simple launch philosophy:
+The project follows a transparent launch philosophy focused on simplicity, security, and long-term sustainability.
 
-> A transparent, fixed-supply token with no minting, no transaction tax, and burn support.
+**Core Principles**
+
+- Fixed supply
+- No minting
+- Burn support
+- 0% transaction tax
+- Open-source development
 
 ---
 
@@ -50,7 +57,7 @@ The project is designed with a simple launch philosophy:
 |------------|-----------:|
 | Founder & Treasury | 50% |
 | Liquidity | 30% |
-| Marketing | 10% |
+| Marketing & Community | 10% |
 | Reserve | 10% |
 
 ---
@@ -65,12 +72,21 @@ tron/
 │   └── Q8JAN.sol
 ├── docs/
 │   ├── WHITEPAPER.md
-│   └── TOKENOMICS.md
-├── node_modules/
+│   ├── TOKENOMICS.md
+│   ├── CHANGELOG.md
+│   ├── AUDIT.md
+│   ├── SECURITY.md
+│   ├── CONTRIBUTING.md
+│   └── LICENSE
 ├── scripts/
 │   ├── compile.js
 │   ├── deploy.js
 │   └── verify.js
+├── submission/
+│   ├── COINGECKO_SUBMISSION.md
+│   ├── COINMARKETCAP_SUBMISSION.md
+│   ├── LAUNCH_PACK.md
+│   └── MEDIA_PRESS_KIT.md
 ├── website/
 ├── .env
 ├── .env.example
@@ -80,15 +96,14 @@ tron/
 ```
 
 ---
-
 ## Smart Contract Features
 
 - Fixed supply
 - No minting function
 - Burnable token
-- No transaction tax
+- 0% transaction tax
 - Open-source smart contract
-- ERC20-compatible implementation for TRON deployment
+- TRC-20 token implementation
 
 ---
 
@@ -96,14 +111,15 @@ tron/
 
 - Node.js 20+
 - npm
-- TRON wallet
+- TronWeb
+- TRON wallet (TronLink or compatible)
 - TRX for deployment fees
 
 ---
 
 ## Installation
 
-Install dependencies:
+Install project dependencies:
 
 ```bash
 npm install
@@ -132,7 +148,7 @@ TRON_FULL_HOST=https://api.trongrid.io
 
 ## Deployment
 
-Deploy to the configured TRON network:
+Deploy to the TRON Mainnet:
 
 ```bash
 npm run deploy
@@ -142,7 +158,7 @@ npm run deploy
 
 ## Verification
 
-After deployment:
+Verify the deployed contract:
 
 ```bash
 npm run verify
@@ -156,19 +172,28 @@ npm run verify
 |-----------|--------|
 | Smart Contract | ✅ Complete |
 | Build System | ✅ Complete |
-| Deployment Script | ✅ Ready |
-| Verification Script | ✅ Ready |
-| Documentation | ✅ In Progress |
-| Website | ✅ In Progress |
+| Deployment Script | ✅ Complete |
+| Verification Script | ✅ Complete |
+| Documentation | ✅ Complete |
+| Website | ✅ Complete |
+| Submission Files | ✅ Complete |
 | Mainnet Deployment | ⏳ Waiting for TRX |
 | Liquidity | ⏳ Pending |
 | Public Trading | ⏳ Pending |
 
 ---
 
-## Repository
+## Official Repository
 
 https://github.com/JARRAHNOUR/Q8JAN
+
+---
+
+## Official Contact
+
+Email:
+
+q8janproject@gmail.com
 
 ---
 
