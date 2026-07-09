@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jarrahnour.github.io/Q8JAN/sitemap.xml
