@@ -65,12 +65,13 @@
         Contract Coming Soon
       </a>
 
-      <a
+            <a
         href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md"
         class="btn"
         target="_blank"
         rel="noopener noreferrer"
         data-i18n="whitepaper"
+        data-doc="whitepaper"
       >
         Whitepaper
       </a>
@@ -225,20 +226,22 @@
     <h2 data-i18n="documentsTitle">Documents</h2>
 
     <a
-      href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md"
-      target="_blank"
-      rel="noopener noreferrer"
-      data-i18n="whitepaper"
-    >
+  href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md"
+  target="_blank"
+  rel="noopener noreferrer"
+  data-i18n="whitepaper"
+  data-doc="whitepaper"
+>
       Whitepaper
     </a>
 
     <a
-      href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS.md"
-      target="_blank"
-      rel="noopener noreferrer"
-      data-i18n="tokenomicsTitle"
-    >
+  href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS.md"
+  target="_blank"
+  rel="noopener noreferrer"
+  data-i18n="tokenomicsTitle"
+  data-doc="tokenomics"
+>
       Tokenomics
     </a>
 
@@ -630,6 +633,44 @@
         footer: "© 2026 Q8JAN-Projekt. Alle Rechte vorbehalten."
       }
     };
+    const documentLinks = {
+  en: {
+    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md",
+    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS.md"
+  },
+
+  ar: {
+    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER_AR.md",
+    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS_AR.md"
+  },
+
+  zh: {
+    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER_ZH.md",
+    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS_ZH.md"
+  },
+
+  fr: {
+    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER_FR.md",
+    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS_FR.md"
+  },
+
+  de: {
+    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER_DE.md",
+    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS_DE.md"
+  }
+};
+
+function updateDocumentLinks(language) {
+  const links = documentLinks[language] || documentLinks.en;
+
+  document.querySelectorAll('[data-doc="whitepaper"]').forEach(link => {
+    link.href = links.whitepaper;
+  });
+
+  document.querySelectorAll('[data-doc="tokenomics"]').forEach(link => {
+    link.href = links.tokenomics;
+  });
+}
 
     const languageSelect = document.getElementById("languageSelect");
 
@@ -669,8 +710,10 @@
         }
       });
 
-      languageSelect.value = selectedLanguage;
-      localStorage.setItem("q8janLanguage", selectedLanguage);
+      updateDocumentLinks(selectedLanguage);
+
+languageSelect.value = selectedLanguage;
+localStorage.setItem("q8janLanguage", selectedLanguage);
     }
 
     languageSelect.addEventListener("change", function () {
