@@ -18,7 +18,7 @@ If you do not agree with these terms, you should discontinue use of the website 
 
 Q8JAN is a decentralized digital asset developed on the TRON blockchain using the TRC-20 token standard.
 
-All information published by the project is provided for informational purposes only.
+All information published by the Q8JAN project is provided solely for informational and educational purposes.
 
 Nothing on the website should be interpreted as financial, investment, legal, or tax advice.
 
@@ -84,6 +84,7 @@ Q8JAN makes no warranties regarding:
 * Accuracy of information
 * Error-free operation
 * Compatibility with all systems
+* Future market performance or token value
 
 ---
 
