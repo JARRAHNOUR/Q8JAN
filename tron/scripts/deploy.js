@@ -12,6 +12,7 @@ const DEPLOYMENT_PATH = path.join(BUILD_DIR, "deployment.json");
 async function main() {
   const privateKey = process.env.TRON_PRIVATE_KEY;
   const fullHost = process.env.TRON_FULL_HOST || DEFAULT_NETWORK;
+
   const isDryRun =
     process.argv.includes("--check") ||
     process.argv.includes("--dry-run") ||
@@ -73,23 +74,32 @@ async function main() {
     originEnergyLimit: 10_000_000,
   });
 
+  const contractAddressHex = contract.address;
+  const contractAddressBase58 =
+    TronWeb.address.fromHex(contractAddressHex);
+
   const deployment = {
     project: "Q8JAN",
     standard: "TRC-20",
     network: fullHost,
     deployer,
-    contractAddress: contract.address,
+    contractAddressHex,
+    contractAddressBase58,
     deployedAt: new Date().toISOString(),
   };
 
-  fs.writeFileSync(DEPLOYMENT_PATH, JSON.stringify(deployment, null, 2));
+  fs.writeFileSync(
+    DEPLOYMENT_PATH,
+    JSON.stringify(deployment, null, 2)
+  );
 
   console.log("Q8JAN deployed successfully.");
-  console.log("Contract Address:", contract.address);
+  console.log("Contract Address Hex:", contractAddressHex);
+  console.log("Contract Address Base58:", contractAddressBase58);
   console.log("Deployment saved to tron/build/deployment.json");
 }
 
 main().catch((error) => {
-  console.error(error);
+  console.error("Deployment failed:", error.message);
   process.exitCode = 1;
 });

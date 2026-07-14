@@ -1,9 +1,9 @@
-
 {
   "project": "Q8JAN",
   "standard": "TRC-20",
   "network": "https://api.trongrid.io",
   "deployer": "TBeznZaQrkz8AKVH4XgkrizYoweZG6KJzp",
-  "contractAddress": "41c4da77d5eaa338f5576eaf91d82dce424b621377",
-  "deployedAt": "2026-07-13T10:05:27.365Z"
+  "deployedAt": "2026-07-13T10:05:27.365Z",
+  "contractAddressHex": "41c4da77d5eaa338f5576eaf91d82dce424b621377",
+  "contractAddressBase58": "TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU"
 }
