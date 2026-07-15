@@ -1,937 +1,400 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta
-    id="meta-description"
-    name="description"
-    content="Q8JAN is a fixed-supply TRC-20 token on the TRON blockchain with zero transaction tax."
-  />
+  name="description"
+  content="Q8JAN is an official fixed-supply TRC-20 digital asset on the TRON blockchain with zero transaction tax, a verified smart contract and active liquidity on SunSwap."
+>
+  <meta name="keywords" content="Q8JAN, TRON, TRC-20, SunSwap, TronScan, digital asset, blockchain">
+  <meta name="theme-color" content="#050b16">
 
-  <meta
-    name="keywords"
-    content="Q8JAN, TRON, TRC-20, cryptocurrency, token, blockchain"
-  />
+  <meta property="og:title" content="Q8JAN | Official Launch">
+  <meta property="og:description" content="Discover the official launch of Q8JAN on the TRON blockchain.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jarrahnour.github.io/Q8JAN/launch.html">
+  <meta property="og:image" content="https://jarrahnour.github.io/Q8JAN/logo/logo.png">
 
-  <meta name="author" content="Q8JAN Project" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Q8JAN | Official Launch">
+  <meta name="twitter:description" content="Discover the official launch of Q8JAN on the TRON blockchain.">
+  <meta name="twitter:image" content="https://jarrahnour.github.io/Q8JAN/logo/logo.png">
 
-  <title>Q8JAN | TRON TRC-20 Token</title>
+  <title>Q8JAN | Official TRON Digital Asset</title>
 
-  
-  <link rel="icon" href="logo/logo.png" />
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
-  rel="stylesheet"
-/>
-
-
-  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo/logo.png">
+  <link rel="stylesheet" href="launch.css">
 </head>
 
 <body>
+  <div class="page-background" aria-hidden="true">
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+    <div class="grid-overlay"></div>
+  </div>
 
-  <nav class="nav">
-    <div class="brand">
-  <img src="logo/logo.png" alt="Q8JAN Logo" class="brand-logo" />
-  <span>Q8JAN</span>
-</div>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="index.html">
+        <img src="logo/logo.png" alt="Q8JAN official logo" class="brand-logo">
+        <div class="brand-text">
+          <strong>Q8JAN</strong>
+          <span data-i18n="brandSubtitle">Official TRON Digital Asset</span>
+        </div>
+      </a>
 
-    <div class="links">
-      <a href="#about" data-i18n="navAbout">About</a>
-      <a href="#tokenomics" data-i18n="navTokenomics">Tokenomics</a>
-      <a href="#roadmap" data-i18n="navRoadmap">Roadmap</a>
-      <a href="#docs" data-i18n="navDocs">Docs</a>
-      <a href="#official" data-i18n="navOfficial">Official</a>
-    </div>
-
-    <div class="language-selector">
-      <label for="languageSelect" class="sr-only">Language</label>
-
-      <select id="languageSelect" aria-label="Select language">
-        <option value="en">English</option>
-        <option value="ar">العربية</option>
-        <option value="zh">中文</option>
-        <option value="fr">Français</option>
-        <option value="de">Deutsch</option>
-      </select>
-    </div>
-  </nav>
-
-  <header class="hero">
-    <div class="badge" data-i18n="badge">
-      TRON • TRC-20 • 0% Tax
-    </div>
-
-    <img
-  src="logo/logo.png"
-  alt="Q8JAN Logo"
-  class="hero-logo"
-/>
-
-    <h1>Q8JAN</h1>
-
-    <p class="subtitle" data-i18n="subtitle">
-      Simple. Transparent. Fixed Supply. Tradable.
-    </p>
-
-<div class="actions">
-  <a
-  href="https://tronscan.org/#/contract/TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU"
-  class="btn primary"
+      <nav class="header-actions">
+        <a
+  class="header-link"
+  href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/WHITEPAPER.md"
   target="_blank"
   rel="noopener noreferrer"
-  data-i18n="viewContract"
+  data-i18n="projectDocs"
 >
-  View Verified Contract
+  Project Docs
 </a>
 
-<a
-  href="https://sunswap.com"
-  class="btn"
-  target="_blank"
-  rel="noopener noreferrer"
-  data-i18n="tradeSunSwap"
->
-  Trade on SunSwap
-</a>
-
-<a
-  href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md"
-  class="btn"
-  target="_blank"
-  rel="noopener noreferrer"
-  data-i18n="whitepaper"
-  data-doc="whitepaper"
->
-  Whitepaper
-</a>
-</div>
-    
+        <select id="languageSelect" class="language-select" aria-label="Select language">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+          <option value="zh">简体中文</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+        </select>
+      </nav>
+    </div>
   </header>
 
-  <section id="verify" class="section">
-  <h2 data-i18n="verifyTitle">Verify Q8JAN</h2>
+  <main>
+    <section class="hero-section">
+      <div class="container hero-layout">
+        <div class="hero-content reveal">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span data-i18n="launchStatus">Official launch is live</span>
+          </div>
 
-  <div class="cards">
+          <p class="hero-eyebrow" data-i18n="heroEyebrow">A fixed-supply TRC-20 digital asset</p>
 
-    <div class="card">
-      <h3 data-i18n="officialContract">Official Contract</h3>
+          <h1>
+            <span data-i18n="heroTitleFirst">The official launch of</span>
+            <span class="gradient-text">Q8JAN</span>
+          </h1>
 
-      <p style="word-break: break-all;">
-        <a
-          href="https://tronscan.org/#/contract/TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU
-        </a>
-      </p>
+          <p class="hero-description" data-i18n="heroDescription">
+            Q8JAN is a transparent digital asset project built on the TRON blockchain with a fixed maximum supply, zero transaction tax and a publicly verified smart contract.
+          </p>
 
-      <p>
-        <small data-i18n="clickVerify">
-          Click to verify on TronScan
-        </small>
-      </p>
-    </div>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="https://sunswap.com/#/home" target="_blank" rel="noopener noreferrer" data-i18n="tradeSunSwap">Trade on SunSwap</a>
+            <a class="button button-secondary" href="https://tronscan.org/#/contract/TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU" target="_blank" rel="noopener noreferrer" data-i18n="verifyTronScan">Verify on TronScan</a>
+            <a class="button button-outline" href="https://github.com/JARRAHNOUR/Q8JAN" target="_blank" rel="noopener noreferrer" data-i18n="viewGitHub">GitHub Repository</a>
+            <a
+  class="button button-outline"
+  href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md"
+  target="_blank"
+  rel="noopener noreferrer"
+  data-i18n="viewWhitepaper"
+>
+  View Whitepaper
+</a>
+          </div>
 
-    <div class="card">
-      <h3 data-i18n="verificationStatus">Verification Status</h3>
+          <div class="hero-warning">
+            <span class="warning-icon">⚠</span>
+            <p data-i18n="heroWarning">Always verify the official contract address before buying or transferring Q8JAN.</p>
+          </div>
+        </div>
 
-      <p data-i18n="verifiedMatch">✅ Verified – Perfect Match</p>
-      <p>Solidity 0.8.27</p>
-      <p data-i18n="optimizationRuns">Optimization: 200 Runs</p>
-      <p>License: MIT</p>
-      <p data-i18n="lastVerified">Last Verified: July 2026</p>
-    </div>
+        <div class="hero-visual reveal">
+          <div class="token-showcase">
+            <div class="token-ring token-ring-one"></div>
+            <div class="token-ring token-ring-two"></div>
 
-    <div class="card">
-      <h3 data-i18n="tradingStatus">Trading Status</h3>
+            <div class="token-logo-wrapper">
+              <img src="logo/logo.png" alt="Q8JAN token logo" class="token-logo">
+            </div>
 
-      <p data-i18n="liveSunSwap">✅ Live on SunSwap</p>
-      <p data-i18n="buySellConfirmed">Buy &amp; Sell Confirmed</p>
-      <p data-i18n="liquidityActive">Liquidity Active</p>
+            <div class="token-name">Q8JAN</div>
+            <div class="token-subtitle" data-i18n="tokenSubtitle">Built on TRON</div>
 
-      <p>
-        <a
-          href="https://sunswap.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="tradeSunSwap"
-        >
-          Trade on SunSwap
-        </a>
-      </p>
-    </div>
+            <div class="token-status">
+              <span class="status-dot"></span>
+              <span data-i18n="tradingLive">Trading Live</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="card">
-      <h3 data-i18n="officialLinksTitle">Official Links</h3>
+    <section class="stats-section">
+  <div class="container stats-grid">
 
-      <p>
-        <a
-          href="https://tronscan.org/#/contract/TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="viewTronScan"
-        >
-          View on TronScan
-        </a>
-      </p>
+    <article class="stat-card reveal">
+      <span class="stat-value">100,000,000,000</span>
+      <span class="stat-label" data-i18n="maximumSupply">
+        Maximum Supply
+      </span>
+    </article>
 
-      <p>
-        <a
-          href="https://github.com/JARRAHNOUR/Q8JAN"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="githubRepository"
-        >
-          GitHub Repository
-        </a>
-      </p>
+    <article class="stat-card reveal">
+      <span class="stat-value">TRON</span>
+      <span class="stat-label" data-i18n="networkLabel">
+        Network
+      </span>
+    </article>
 
-      <p>
-        <a
-          href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="whitepaper"
-          data-doc="whitepaper"
-        >
-          Whitepaper
-        </a>
-      </p>
+    <article class="stat-card reveal">
+      <span class="stat-value">TRC-20</span>
+      <span class="stat-label" data-i18n="tokenStandard">
+        Token Standard
+      </span>
+    </article>
 
-    </div>
+    <article class="stat-card reveal">
+      <span class="stat-value">0%</span>
+      <span class="stat-label" data-i18n="transactionTax">
+        Transaction Tax
+      </span>
+    </article>
+
+    <article class="stat-card reveal">
+      <span class="stat-value" data-i18n="verifiedValue">
+        Verified ✓
+      </span>
+      <span class="stat-label" data-i18n="smartContractLabel">
+        Smart Contract
+      </span>
+    </article>
+
+    <article class="stat-card reveal">
+      <span class="stat-value" data-i18n="liquidityValue">
+        Live
+      </span>
+      <span class="stat-label" data-i18n="liquidityStatus">
+        Liquidity Status
+      </span>
+    </article>
 
   </div>
 </section>
 
-  <section id="about" class="section">
-    <h2 data-i18n="aboutTitle">About Q8JAN</h2>
+    <section class="content-section" id="why-q8jan">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker" data-i18n="whyKicker">Project Foundation</span>
+          <h2 data-i18n="whyTitle">Why Q8JAN?</h2>
+          <p data-i18n="whyDescription">Q8JAN is designed around simple token mechanics, transparent verification and public project documentation.</p>
+        </div>
 
-    <p data-i18n="aboutText">
-      Q8JAN is a fixed-supply digital asset built on the TRON blockchain.
-      The project focuses on transparency, security, simple tokenomics,
-      and long-term ecosystem growth.
-    </p>
-  </section>
+        <div class="features-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon">🔒</div>
+            <h3 data-i18n="fixedSupplyTitle">Fixed Supply</h3>
+            <p data-i18n="fixedSupplyText">The total maximum supply was created at deployment, with no additional minting function.</p>
+          </article>
 
-  <section class="stats">
+          <article class="feature-card reveal">
+            <div class="feature-icon">0%</div>
+            <h3 data-i18n="zeroTaxTitle">Zero Transaction Tax</h3>
+            <p data-i18n="zeroTaxText">The token contract does not impose a buy tax or sell tax.</p>
+          </article>
 
-    <div>
-      <span data-i18n="totalSupply">Total Supply</span>
-      <strong>100,000,000,000</strong>
-    </div>
+          <article class="feature-card reveal">
+            <div class="feature-icon">✓</div>
+            <h3 data-i18n="verifiedTitle">Verified Contract</h3>
+            <p data-i18n="verifiedText">The official smart contract source code is verified and publicly available on TronScan.</p>
+          </article>
 
-    <div>
-      <span data-i18n="network">Network</span>
-      <strong>TRON</strong>
-    </div>
+          <article class="feature-card reveal">
+            <div class="feature-icon">🔥</div>
+            <h3 data-i18n="burnTitle">Burn Enabled</h3>
+            <p data-i18n="burnText">Holders can permanently remove their own tokens from circulation through the burn function.</p>
+          </article>
 
-    <div>
-      <span data-i18n="tax">Tax</span>
-      <strong>0%</strong>
-    </div>
+          <article class="feature-card reveal">
+            <div class="feature-icon">⚡</div>
+            <h3 data-i18n="tronTitle">TRON Network</h3>
+            <p data-i18n="tronText">Q8JAN operates on TRON, supporting efficient digital asset transfers.</p>
+          </article>
 
-    <div>
-      <span data-i18n="mint">Mint</span>
-      <strong data-i18n="disabled">Disabled</strong>
-    </div>
-
-  </section>
-
-  <section id="tokenomics" class="section">
-
-    <h2 data-i18n="tokenomicsTitle">Tokenomics</h2>
-
-    <div class="cards">
-
-      <div class="card">
-        <h3 data-i18n="founderTreasury">Founder & Treasury</h3>
-        <p>50% — 50B Q8JAN</p>
+          <article class="feature-card reveal">
+            <div class="feature-icon">🌍</div>
+            <h3 data-i18n="globalTitle">Global Access</h3>
+            <p data-i18n="globalText">Official information is presented in five languages for an international audience.</p>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3 data-i18n="liquidity">Liquidity</h3>
-        <p>30% — 30B Q8JAN</p>
+    <section class="content-section" id="tokenomics">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker" data-i18n="tokenomicsKicker">Tokenomics</span>
+          <h2 data-i18n="tokenomicsTitle">Public allocation structure</h2>
+          <p data-i18n="tokenomicsDescription">The project allocation is published to support transparency, planning and long-term development.</p>
+        </div>
+
+        <div class="tokenomics-layout">
+          <div class="allocation-chart reveal">
+            <div class="chart-center">
+              <strong>100B</strong>
+              <span data-i18n="totalSupply">Total Supply</span>
+            </div>
+          </div>
+
+          <div class="allocation-list reveal">
+            <div class="allocation-item">
+              <div class="allocation-header">
+                <span data-i18n="founderTreasury">Founder and Treasury</span>
+                <strong>50%</strong>
+              </div>
+              <div class="allocation-bar"><span style="width: 50%"></span></div>
+            </div>
+
+            <div class="allocation-item">
+              <div class="allocation-header">
+                <span data-i18n="liquidity">Liquidity</span>
+                <strong>30%</strong>
+              </div>
+              <div class="allocation-bar"><span style="width: 30%"></span></div>
+            </div>
+
+            <div class="allocation-item">
+              <div class="allocation-header">
+                <span data-i18n="marketing">Marketing</span>
+                <strong>10%</strong>
+              </div>
+              <div class="allocation-bar"><span style="width: 10%"></span></div>
+            </div>
+
+            <div class="allocation-item">
+              <div class="allocation-header">
+                <span data-i18n="reserveDevelopment">Reserve and Future Development</span>
+                <strong>10%</strong>
+              </div>
+              <div class="allocation-bar"><span style="width: 10%"></span></div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3 data-i18n="marketing">Marketing</h3>
-        <p>10% — 10B Q8JAN</p>
+    <section class="content-section" id="contract">
+      <div class="container">
+        <div class="contract-panel reveal">
+          <div class="contract-content">
+            <span class="section-kicker" data-i18n="contractKicker">Official Contract</span>
+            <h2 data-i18n="contractTitle">Verify before every transaction</h2>
+            <p data-i18n="contractDescription">Use only the official Q8JAN contract address shown below. Never trust an address received from an unknown account.</p>
+
+            <div class="contract-address-box">
+              <code id="contractAddress">TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU</code>
+              <button id="copyContract" class="copy-button" type="button" data-i18n="copy">Copy</button>
+            </div>
+
+            <div class="contract-buttons">
+              <a class="button button-primary" href="https://tronscan.org/#/contract/TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU" target="_blank" rel="noopener noreferrer" data-i18n="openTronScan">Open on TronScan</a>
+              <a class="button button-secondary" href="https://sunswap.com/#/home" target="_blank" rel="noopener noreferrer" data-i18n="openSunSwap">Open SunSwap</a>
+            </div>
+          </div>
+
+          <div class="security-box">
+            <div class="security-icon">🛡️</div>
+            <h3 data-i18n="securityTitle">Security Notice</h3>
+            <p data-i18n="securityText">Q8JAN representatives will never ask for your private key, recovery phrase or wallet password.</p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <h3 data-i18n="reserve">Reserve</h3>
-        <p>10% — 10B Q8JAN</p>
-      </div>
+    <section class="content-section">
+      <div class="container">
+        <div class="official-links-panel reveal">
+          <div class="section-heading">
+            <span class="section-kicker" data-i18n="linksKicker">Official Channels</span>
+            <h2 data-i18n="linksTitle">Follow verified Q8JAN sources</h2>
+            <p data-i18n="linksDescription">Use these official links for project information, updates and verification.</p>
+          </div>
 
-    </div>
-
-  </section>
-
-  <section class="section">
-
-    <h2 data-i18n="featuresTitle">Core Features</h2>
-
-    <div class="cards">
-
-      <div class="card">
-        <h3 data-i18n="fixedSupply">Fixed Supply</h3>
-        <p data-i18n="fixedSupplyText">
-          100B Q8JAN minted once.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3 data-i18n="noMint">No Mint</h3>
-        <p data-i18n="noMintText">
-          No additional tokens after deployment.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3 data-i18n="burnable">Burnable</h3>
-        <p data-i18n="burnableText">
-          Holders may burn their own tokens.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3 data-i18n="tradable">Tradable</h3>
-        <p data-i18n="tradableText">
-          Q8JAN/TRX trading pair after launch.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-  <section id="roadmap" class="section">
-
-    <h2 data-i18n="roadmapTitle">Roadmap</h2>
-
-    <div class="timeline">
-
-      <div>
-        <strong data-i18n="phase1">Phase 1</strong>
-        <p data-i18n="phase1Text">
-          Complete documentation, website,
-          branding, and deployment preparation.
-        </p>
-      </div>
-
-      <div>
-        <strong data-i18n="phase2">Phase 2</strong>
-        <p data-i18n="phase2Text">
-          Deploy the smart contract on TRON Mainnet
-          and verify the contract.
-        </p>
-      </div>
-
-      <div>
-        <strong data-i18n="phase3">Phase 3</strong>
-        <p data-i18n="phase3Text">
-          Add liquidity and launch Q8JAN/TRX trading.
-        </p>
-      </div>
-
-      <div>
-        <strong data-i18n="phase4">Phase 4</strong>
-        <p data-i18n="phase4Text">
-          Community growth, listings,
-          and ecosystem expansion.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-  <section id="docs" class="section docs">
-
-    <h2 data-i18n="documentsTitle">Documents</h2>
-
-    <a
-  href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md"
+          <div class="official-links-grid">
+            <a
+  class="official-link-card"
+  href="https://tronscan.org/#/contract/TTv5A64KFPeKPL7ik3jYHAUxJedPSD8okU"
   target="_blank"
   rel="noopener noreferrer"
-  data-i18n="whitepaper"
-  data-doc="whitepaper"
 >
-      Whitepaper
-    </a>
+  <span class="official-link-icon">🔎</span>
+  <strong>TronScan</strong>
+</a>
 
-    <a
-  href="https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS.md"
-  target="_blank"
-  rel="noopener noreferrer"
-  data-i18n="tokenomicsTitle"
-  data-doc="tokenomics"
->
-      Tokenomics
-    </a>
+            <a class="official-link-card" href="https://github.com/JARRAHNOUR/Q8JAN" target="_blank" rel="noopener noreferrer">
+              <span class="official-link-icon">⌘</span>
+              <strong>GitHub</strong>
+            </a>
 
-  </section>
+            <a class="official-link-card" href="https://x.com/Q8JAN_PROJECT" target="_blank" rel="noopener noreferrer">
+              <span class="official-link-icon">𝕏</span>
+              <strong data-i18n="officialX">Official X Account</strong>
+            </a>
 
-  <section id="official" class="section">
+            <a class="official-link-card" href="mailto:q8janproject@gmail.com">
+              <span class="official-link-icon">✉</span>
+              <strong data-i18n="officialEmail">Official Email</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2 data-i18n="officialLinksTitle">Official Links</h2>
+    <section class="content-section">
+      <div class="container">
+        <div class="launch-cta reveal">
+          <span class="section-kicker" data-i18n="ctaKicker">Official Launch</span>
+          <h2 data-i18n="ctaTitle">Explore Q8JAN on the TRON blockchain</h2>
+          <p data-i18n="ctaDescription">Review the official documentation, verify the smart contract and make your own informed assessment before participating.</p>
 
-    <div class="cards">
+          <div class="cta-buttons">
+            <a class="button button-primary" href="https://sunswap.com/#/home" target="_blank" rel="noopener noreferrer" data-i18n="tradeSunSwap">Trade on SunSwap</a>
+            <button id="sharePage" class="button button-outline" type="button" data-i18n="sharePage">Share Launch Page</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <div class="card">
-        <h3 data-i18n="officialWebsite">Official Website</h3>
-        <p>
-          <a
-            href="https://jarrahnour.github.io/Q8JAN/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://jarrahnour.github.io/Q8JAN/
-          </a>
-        </p>
+    <section class="risk-section">
+      <div class="container">
+        <div class="risk-box reveal">
+          <h2 data-i18n="riskTitle">Important Risk Disclosure</h2>
+          <p data-i18n="riskText">Q8JAN is a digital asset and is not a bank deposit, financial guarantee or promise of profit. Digital assets can be highly volatile and may lose some or all of their value. This page is for informational purposes only and does not constitute financial, legal, tax or investment advice. Every participant is responsible for conducting independent research and assessing the risks before making any decision.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="logo/logo.png" alt="Q8JAN logo">
+        <div>
+          <strong>Q8JAN</strong>
+          <span data-i18n="footerSubtitle">Official TRON Digital Asset</span>
+        </div>
       </div>
 
-      <div class="card">
-        <h3>GitHub</h3>
-        <p>
-          <a
-            href="https://github.com/JARRAHNOUR/Q8JAN"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            github.com/JARRAHNOUR/Q8JAN
-          </a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>X (Twitter)</h3>
-        <p>
-          <a
-            href="https://x.com/Q8JAN_PROJECT"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @Q8JAN_PROJECT
-          </a>
-        </p>
-      </div>
-
-      <div class="card">
-        <h3 data-i18n="email">Email</h3>
-        <p>
-          <a href="mailto:q8janproject@gmail.com">
-            q8janproject@gmail.com
-          </a>
-        </p>
-      </div>
-
+      <p>© <span id="currentYear"></span> Q8JAN. <span data-i18n="allRightsReserved">All rights reserved.</span></p>
     </div>
-
-  </section>
-
-  <footer data-i18n="footer">
-    © 2026 Q8JAN Project. All rights reserved.
   </footer>
 
-  <script>
-    const translations = {
-      en: {
-        pageTitle: "Q8JAN | TRON TRC-20 Token",
-        metaDescription:
-          "Q8JAN is a fixed-supply TRC-20 token on the TRON blockchain with zero transaction tax.",
-
-        navAbout: "About",
-        navTokenomics: "Tokenomics",
-        navRoadmap: "Roadmap",
-        navDocs: "Docs",
-        navOfficial: "Official",
-
-        badge: "TRON • TRC-20 • 0% Tax",
-        subtitle: "Simple. Transparent. Fixed Supply. Tradable.",
-        viewContract: "View Verified Contract",
-tradeSunSwap: "Trade on SunSwap",
-whitepaper: "Whitepaper",
-verifyTitle: "Q8JAN-Verifizierung",
-officialContract: "Offizieller Vertrag",
-clickVerify: "Zur Verifizierung auf TronScan klicken",
-verificationStatus: "Verifizierungsstatus",
-verifiedMatch: "✅ Verifiziert — Perfekte Übereinstimmung",
-optimizationRuns: "Optimierung: 200 Durchläufe",
-lastVerified: "Zuletzt verifiziert: Juli 2026",
-tradingStatus: "Handelsstatus",
-liveSunSwap: "✅ Auf SunSwap verfügbar",
-buySellConfirmed: "Kauf und Verkauf bestätigt",
-liquidityActive: "Liquidität aktiv",
-viewTronScan: "Auf TronScan anzeigen",
-githubRepository: "GitHub-Repository",
-
-        aboutTitle: "About Q8JAN",
-        aboutText:
-          "Q8JAN is a fixed-supply digital asset built on the TRON blockchain. The project focuses on transparency, security, simple tokenomics, and long-term ecosystem growth.",
-
-        totalSupply: "Total Supply",
-        network: "Network",
-        tax: "Tax",
-        mint: "Mint",
-        disabled: "Disabled",
-
-        tokenomicsTitle: "Tokenomics",
-        founderTreasury: "Founder & Treasury",
-        liquidity: "Liquidity",
-        marketing: "Marketing",
-        reserve: "Reserve",
-
-        featuresTitle: "Core Features",
-        fixedSupply: "Fixed Supply",
-        fixedSupplyText: "100B Q8JAN minted once.",
-        noMint: "No Mint",
-        noMintText: "No additional tokens after deployment.",
-        burnable: "Burnable",
-        burnableText: "Holders may burn their own tokens.",
-        tradable: "Tradable",
-        tradableText: "Q8JAN/TRX trading pair after launch.",
-
-        roadmapTitle: "Roadmap",
-        phase1: "Phase 1",
-        phase1Text:
-          "Complete documentation, website, branding, and deployment preparation.",
-        phase2: "Phase 2",
-        phase2Text:
-          "Deploy the smart contract on TRON Mainnet and verify the contract.",
-        phase3: "Phase 3",
-        phase3Text:
-          "Add liquidity and launch Q8JAN/TRX trading.",
-        phase4: "Phase 4",
-        phase4Text:
-          "Community growth, listings, and ecosystem expansion.",
-
-        documentsTitle: "Documents",
-        officialLinksTitle: "Official Links",
-        officialWebsite: "Official Website",
-        email: "Email",
-        footer: "© 2026 Q8JAN Project. All rights reserved."
-      },
-
-      ar: {
-        pageTitle: "Q8JAN | توكن TRC-20 على شبكة TRON",
-        metaDescription:
-          "Q8JAN أصل رقمي ثابت المعروض من معيار TRC-20 على شبكة TRON، دون ضريبة على المعاملات.",
-
-        navAbout: "عن المشروع",
-        navTokenomics: "اقتصاد التوكن",
-        navRoadmap: "خارطة الطريق",
-        navDocs: "المستندات",
-        navOfficial: "الروابط الرسمية",
-
-        badge: "TRON • TRC-20 • ضريبة 0%",
-        subtitle: "بسيط. شفاف. معروض ثابت. قابل للتداول.",
-        viewContract: "عرض العقد الموثق",
-tradeSunSwap: "التداول على SunSwap",
-whitepaper: "الورقة البيضاء",
-verifyTitle: "التحقق من Q8JAN",
-officialContract: "العقد الرسمي",
-clickVerify: "اضغط للتحقق عبر TronScan",
-verificationStatus: "حالة التحقق",
-verifiedMatch: "✅ موثق — تطابق كامل",
-optimizationRuns: "التحسين: 200 تشغيل",
-lastVerified: "آخر مراجعة: يوليو 2026",
-tradingStatus: "حالة التداول",
-liveSunSwap: "✅ متداول على SunSwap",
-buySellConfirmed: "تم تأكيد الشراء والبيع",
-liquidityActive: "السيولة نشطة",
-viewTronScan: "عرض على TronScan",
-githubRepository: "مستودع GitHub",
-
-        aboutTitle: "عن Q8JAN",
-        aboutText:
-          "Q8JAN أصل رقمي ذو معروض ثابت مبني على شبكة TRON. يركز المشروع على الشفافية والأمان واقتصاد توكن بسيط ونمو المنظومة على المدى الطويل.",
-
-        totalSupply: "إجمالي المعروض",
-        network: "الشبكة",
-        tax: "الضريبة",
-        mint: "السك",
-        disabled: "معطل",
-
-        tokenomicsTitle: "اقتصاد التوكن",
-        founderTreasury: "المؤسس والخزانة",
-        liquidity: "السيولة",
-        marketing: "التسويق",
-        reserve: "الاحتياطي",
-
-        featuresTitle: "الميزات الأساسية",
-        fixedSupply: "معروض ثابت",
-        fixedSupplyText: "تم سك 100 مليار Q8JAN مرة واحدة.",
-        noMint: "لا يوجد سك إضافي",
-        noMintText: "لن تُنشأ توكنات إضافية بعد نشر العقد.",
-        burnable: "قابل للحرق",
-        burnableText: "يمكن لحاملي التوكن حرق توكناتهم الخاصة.",
-        tradable: "قابل للتداول",
-        tradableText: "زوج تداول Q8JAN/TRX بعد الإطلاق.",
-
-        roadmapTitle: "خارطة الطريق",
-        phase1: "المرحلة الأولى",
-        phase1Text:
-          "إكمال المستندات والموقع والهوية البصرية والاستعداد لنشر العقد.",
-        phase2: "المرحلة الثانية",
-        phase2Text:
-          "نشر العقد الذكي على شبكة TRON الرئيسية والتحقق منه.",
-        phase3: "المرحلة الثالثة",
-        phase3Text:
-          "إضافة السيولة وإطلاق تداول Q8JAN/TRX.",
-        phase4: "المرحلة الرابعة",
-        phase4Text:
-          "تنمية المجتمع والإدراجات وتوسيع منظومة المشروع.",
-
-        documentsTitle: "المستندات",
-        officialLinksTitle: "الروابط الرسمية",
-        officialWebsite: "الموقع الرسمي",
-        email: "البريد الإلكتروني",
-        footer: "© 2026 مشروع Q8JAN. جميع الحقوق محفوظة."
-      },
-
-      zh: {
-        pageTitle: "Q8JAN | TRON TRC-20 代币",
-        metaDescription:
-          "Q8JAN 是基于 TRON 区块链的固定供应量 TRC-20 代币，交易税为零。",
-
-        navAbout: "关于项目",
-        navTokenomics: "代币经济",
-        navRoadmap: "路线图",
-        navDocs: "文档",
-        navOfficial: "官方链接",
-
-        badge: "TRON • TRC-20 • 0% 交易税",
-        subtitle: "简单。透明。固定供应。可交易。",
-        viewContract: "查看已验证合约",
-tradeSunSwap: "在 SunSwap 上交易",
-whitepaper: "白皮书",
-verifyTitle: "验证 Q8JAN",
-officialContract: "官方合约",
-clickVerify: "点击前往 TronScan 验证",
-verificationStatus: "验证状态",
-verifiedMatch: "✅ 已验证 — 完全匹配",
-optimizationRuns: "优化：200 次运行",
-lastVerified: "最后验证：2026年7月",
-tradingStatus: "交易状态",
-liveSunSwap: "✅ 已在 SunSwap 上线",
-buySellConfirmed: "买入和卖出已确认",
-liquidityActive: "流动性已激活",
-viewTronScan: "在 TronScan 上查看",
-githubRepository: "GitHub 代码库",
-
-        aboutTitle: "关于 Q8JAN",
-        aboutText:
-          "Q8JAN 是建立在 TRON 区块链上的固定供应量数字资产。该项目专注于透明度、安全性、简单的代币经济模型以及生态系统的长期发展。",
-
-        totalSupply: "总供应量",
-        network: "网络",
-        tax: "交易税",
-        mint: "增发",
-        disabled: "已禁用",
-
-        tokenomicsTitle: "代币经济",
-        founderTreasury: "创始人及金库",
-        liquidity: "流动性",
-        marketing: "市场推广",
-        reserve: "储备",
-
-        featuresTitle: "核心特点",
-        fixedSupply: "固定供应",
-        fixedSupplyText: "1000 亿枚 Q8JAN 一次性铸造。",
-        noMint: "禁止增发",
-        noMintText: "部署后不会产生额外代币。",
-        burnable: "可销毁",
-        burnableText: "持有者可以销毁自己的代币。",
-        tradable: "可交易",
-        tradableText: "上线后推出 Q8JAN/TRX 交易对。",
-
-        roadmapTitle: "路线图",
-        phase1: "第一阶段",
-        phase1Text:
-          "完成文档、网站、品牌设计及部署准备。",
-        phase2: "第二阶段",
-        phase2Text:
-          "在 TRON 主网上部署智能合约并完成验证。",
-        phase3: "第三阶段",
-        phase3Text:
-          "增加流动性并启动 Q8JAN/TRX 交易。",
-        phase4: "第四阶段",
-        phase4Text:
-          "发展社区、推动上线并扩展项目生态系统。",
-
-        documentsTitle: "项目文档",
-        officialLinksTitle: "官方链接",
-        officialWebsite: "官方网站",
-        email: "电子邮箱",
-        footer: "© 2026 Q8JAN 项目。保留所有权利。"
-      },
-
-      fr: {
-        pageTitle: "Q8JAN | Jeton TRC-20 sur TRON",
-        metaDescription:
-          "Q8JAN est un jeton TRC-20 à offre fixe sur la blockchain TRON, sans taxe sur les transactions.",
-
-        navAbout: "À propos",
-        navTokenomics: "Tokenomics",
-        navRoadmap: "Feuille de route",
-        navDocs: "Documents",
-        navOfficial: "Liens officiels",
-
-        badge: "TRON • TRC-20 • Taxe de 0 %",
-        subtitle: "Simple. Transparent. Offre fixe. Négociable.",
-        viewContract: "Voir le contrat vérifié",
-        tradeSunSwap: "Trader sur SunSwap",
-        whitepaper: "Livre blanc",
-        verifyTitle: "Vérifier Q8JAN",
-officialContract: "Contrat officiel",
-clickVerify: "Cliquez pour vérifier sur TronScan",
-verificationStatus: "Statut de vérification",
-verifiedMatch: "✅ Vérifié — Correspondance parfaite",
-optimizationRuns: "Optimisation : 200 exécutions",
-lastVerified: "Dernière vérification : juillet 2026",
-tradingStatus: "Statut de négociation",
-liveSunSwap: "✅ Disponible sur SunSwap",
-buySellConfirmed: "Achat et vente confirmés",
-liquidityActive: "Liquidité active",
-viewTronScan: "Voir sur TronScan",
-githubRepository: "Dépôt GitHub",
-
-        aboutTitle: "À propos de Q8JAN",
-        aboutText:
-          "Q8JAN est un actif numérique à offre fixe construit sur la blockchain TRON. Le projet met l'accent sur la transparence, la sécurité, une économie de jeton simple et la croissance à long terme de son écosystème.",
-
-        totalSupply: "Offre totale",
-        network: "Réseau",
-        tax: "Taxe",
-        mint: "Création monétaire",
-        disabled: "Désactivée",
-
-        tokenomicsTitle: "Tokenomics",
-        founderTreasury: "Fondateur et trésorerie",
-        liquidity: "Liquidité",
-        marketing: "Marketing",
-        reserve: "Réserve",
-
-        featuresTitle: "Fonctionnalités principales",
-        fixedSupply: "Offre fixe",
-        fixedSupplyText: "100 milliards de Q8JAN créés une seule fois.",
-        noMint: "Aucune émission supplémentaire",
-        noMintText:
-          "Aucun jeton supplémentaire ne sera créé après le déploiement.",
-        burnable: "Destructible",
-        burnableText:
-          "Les détenteurs peuvent détruire leurs propres jetons.",
-        tradable: "Négociable",
-        tradableText:
-          "Paire de négociation Q8JAN/TRX après le lancement.",
-
-        roadmapTitle: "Feuille de route",
-        phase1: "Phase 1",
-        phase1Text:
-          "Finaliser la documentation, le site web, l'identité visuelle et la préparation du déploiement.",
-        phase2: "Phase 2",
-        phase2Text:
-          "Déployer le contrat intelligent sur le réseau principal TRON et le vérifier.",
-        phase3: "Phase 3",
-        phase3Text:
-          "Ajouter de la liquidité et lancer la négociation Q8JAN/TRX.",
-        phase4: "Phase 4",
-        phase4Text:
-          "Développer la communauté, obtenir des référencements et étendre l'écosystème.",
-
-        documentsTitle: "Documents",
-        officialLinksTitle: "Liens officiels",
-        officialWebsite: "Site officiel",
-        email: "E-mail",
-        footer: "© 2026 Projet Q8JAN. Tous droits réservés."
-      },
-
-      de: {
-        pageTitle: "Q8JAN | TRC-20-Token auf TRON",
-        metaDescription:
-          "Q8JAN ist ein TRC-20-Token mit festem Angebot auf der TRON-Blockchain und ohne Transaktionssteuer.",
-
-        navAbout: "Über das Projekt",
-        navTokenomics: "Tokenomics",
-        navRoadmap: "Roadmap",
-        navDocs: "Dokumente",
-        navOfficial: "Offizielle Links",
-
-        badge: "TRON • TRC-20 • 0 % Steuer",
-        subtitle: "Einfach. Transparent. Festes Angebot. Handelbar.",
-        viewContract: "Verifizierten Vertrag anzeigen",
-        tradeSunSwap: "Auf SunSwap handeln",
-        whitepaper: "Whitepaper",
-
-        aboutTitle: "Über Q8JAN",
-        aboutText:
-          "Q8JAN ist ein digitaler Vermögenswert mit festem Angebot auf der TRON-Blockchain. Das Projekt konzentriert sich auf Transparenz, Sicherheit, eine einfache Token-Wirtschaft und langfristiges Wachstum des Ökosystems.",
-
-        totalSupply: "Gesamtangebot",
-        network: "Netzwerk",
-        tax: "Steuer",
-        mint: "Prägung",
-        disabled: "Deaktiviert",
-
-        tokenomicsTitle: "Tokenomics",
-        founderTreasury: "Gründer und Treasury",
-        liquidity: "Liquidität",
-        marketing: "Marketing",
-        reserve: "Reserve",
-
-        featuresTitle: "Kernfunktionen",
-        fixedSupply: "Festes Angebot",
-        fixedSupplyText:
-          "100 Milliarden Q8JAN wurden einmalig erzeugt.",
-        noMint: "Keine weitere Prägung",
-        noMintText:
-          "Nach der Bereitstellung werden keine zusätzlichen Token erzeugt.",
-        burnable: "Verbrennbar",
-        burnableText:
-          "Inhaber können ihre eigenen Token vernichten.",
-        tradable: "Handelbar",
-        tradableText:
-          "Q8JAN/TRX-Handelspaar nach dem Start.",
-
-        roadmapTitle: "Roadmap",
-        phase1: "Phase 1",
-        phase1Text:
-          "Dokumentation, Website, Markenauftritt und Vorbereitungen für die Bereitstellung abschließen.",
-        phase2: "Phase 2",
-        phase2Text:
-          "Den Smart Contract im TRON-Mainnet bereitstellen und verifizieren.",
-        phase3: "Phase 3",
-        phase3Text:
-          "Liquidität hinzufügen und den Q8JAN/TRX-Handel starten.",
-        phase4: "Phase 4",
-        phase4Text:
-          "Community-Wachstum, Börsenlistings und Erweiterung des Ökosystems.",
-
-        documentsTitle: "Dokumente",
-        officialLinksTitle: "Offizielle Links",
-        officialWebsite: "Offizielle Website",
-        email: "E-Mail",
-        footer: "© 2026 Q8JAN-Projekt. Alle Rechte vorbehalten."
-      }
-    };
-    const documentLinks = {
-  en: {
-    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER.md",
-    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS.md"
-  },
-
-  ar: {
-    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER_AR.md",
-    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS_AR.md"
-  },
-
-  zh: {
-    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER_ZH.md",
-    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS_ZH.md"
-  },
-
-  fr: {
-    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER_FR.md",
-    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS_FR.md"
-  },
-
-  de: {
-    whitepaper: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/WHITEPAPER_DE.md",
-    tokenomics: "https://github.com/JARRAHNOUR/Q8JAN/blob/main/tron/docs/TOKENOMICS_DE.md"
-  }
-};
-
-function updateDocumentLinks(language) {
-  const links = documentLinks[language] || documentLinks.en;
-
-  document.querySelectorAll('[data-doc="whitepaper"]').forEach(link => {
-    link.href = links.whitepaper;
-  });
-
-  document.querySelectorAll('[data-doc="tokenomics"]').forEach(link => {
-    link.href = links.tokenomics;
-  });
-}
-
-    const languageSelect = document.getElementById("languageSelect");
-
-    function changeLanguage(language) {
-      const selectedLanguage = translations[language]
-        ? language
-        : "en";
-
-      const translation = translations[selectedLanguage];
-
-      document.documentElement.lang = selectedLanguage;
-      document.documentElement.dir =
-        selectedLanguage === "ar" ? "rtl" : "ltr";
-
-      document.body.classList.toggle(
-        "rtl",
-        selectedLanguage === "ar"
-      );
-
-      document.title = translation.pageTitle;
-
-      const metaDescription =
-        document.getElementById("meta-description");
-
-      if (metaDescription) {
-        metaDescription.setAttribute(
-          "content",
-          translation.metaDescription
-        );
-      }
-
-      document.querySelectorAll("[data-i18n]").forEach((element) => {
-        const key = element.getAttribute("data-i18n");
-
-        if (translation[key]) {
-          element.textContent = translation[key];
-        }
-      });
-
-      updateDocumentLinks(selectedLanguage);
-
-languageSelect.value = selectedLanguage;
-localStorage.setItem("q8janLanguage", selectedLanguage);
-    }
-
-    languageSelect.addEventListener("change", function () {
-      changeLanguage(this.value);
-    });
-
-    const savedLanguage =
-      localStorage.getItem("q8janLanguage");
-
-    const browserLanguage =
-      navigator.language.toLowerCase();
-
-    let initialLanguage = savedLanguage || "en";
-
-    if (!savedLanguage) {
-      if (browserLanguage.startsWith("ar")) {
-        initialLanguage = "ar";
-      } else if (browserLanguage.startsWith("zh")) {
-        initialLanguage = "zh";
-      } else if (browserLanguage.startsWith("fr")) {
-        initialLanguage = "fr";
-      } else if (browserLanguage.startsWith("de")) {
-        initialLanguage = "de";
-      }
-    }
-
-    changeLanguage(initialLanguage);
-  </script>
-
+  <div id="notification" class="notification" role="status" aria-live="polite"></div>
+
+  <script src="lang/en.js"></script>
+  <script src="lang/ar.js"></script>
+  <script src="lang/zh.js"></script>
+  <script src="lang/fr.js"></script>
+  <script src="lang/de.js"></script>
+  <script src="launch.js"></script>
 </body>
 </html>
