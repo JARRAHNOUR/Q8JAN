@@ -97,6 +97,25 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  document.querySelectorAll(".sunswap-link").forEach((link) => {
+    link.addEventListener("click", async (event) => {
+      event.preventDefault();
+
+      window.open(link.href, "_blank", "noopener,noreferrer");
+
+      const address = contractAddressElement?.textContent.trim();
+      if (!address) return;
+
+      const language = document.documentElement.lang || defaultLanguage;
+      const copied = await copyText(address);
+
+      if (copied) {
+        showNotification(t(language, "sunSwapContractCopied"));
+      } else {
+        window.prompt(t(language, "copyPrompt"), address);
+      }
+    });
+  });
   sharePageButton?.addEventListener("click", async () => {
     const language = document.documentElement.lang || defaultLanguage;
     const data = {

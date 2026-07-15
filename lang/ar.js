@@ -65,6 +65,7 @@ window.Q8JAN_TRANSLATIONS.ar = {
   "footerSubtitle": "الأصل الرقمي الرسمي على شبكة ترون",
   "allRightsReserved": "جميع الحقوق محفوظة.",
   "copySuccess": "تم نسخ عنوان العقد",
+  "sunSwapContractCopied": "تم نسخ عقد Q8JAN — الصقه في خانة البحث عن التوكن داخل SunSwap.",
   "shareSuccess": "تم نسخ رابط صفحة الإطلاق",
   "shareText": "اكتشف الإطلاق الرسمي لمشروع Q8JAN على شبكة TRON.",
   "copyPrompt": "انسخ عنوان العقد:",

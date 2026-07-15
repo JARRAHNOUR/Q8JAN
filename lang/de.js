@@ -65,6 +65,7 @@ window.Q8JAN_TRANSLATIONS.de = {
   "footerSubtitle": "Offizielles digitales Asset auf TRON",
   "allRightsReserved": "Alle Rechte vorbehalten.",
   "copySuccess": "Vertragsadresse kopiert",
+  "sunSwapContractCopied": "Q8JAN-Vertragsadresse kopiert — in die SunSwap-Token-Suche einfügen.",
   "shareSuccess": "Link zur Startseite kopiert",
   "shareText": "Entdecken Sie den offiziellen Start von Q8JAN auf der TRON-Blockchain.",
   "copyPrompt": "Vertragsadresse kopieren:",

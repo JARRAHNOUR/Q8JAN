@@ -65,6 +65,7 @@ window.Q8JAN_TRANSLATIONS.zh = {
   "footerSubtitle": "TRON 官方数字资产",
   "allRightsReserved": "保留所有权利。",
   "copySuccess": "合约地址已复制",
+  "sunSwapContractCopied": "Q8JAN 合约地址已复制，请粘贴到 SunSwap 的代币搜索框中。",
   "shareSuccess": "发布页面链接已复制",
   "shareText": "了解 Q8JAN 在 TRON 区块链上的正式发布。",
   "copyPrompt": "复制合约地址：",
