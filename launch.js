@@ -162,4 +162,85 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   setLanguage(getInitialLanguage());
+    const geckoTerminalApi =
+    "https://api.geckoterminal.com/api/v2/networks/tron/pools/TZEwy5tJKH4ybox3Y4uUCPVKDmMG5DSCcx";
+
+  const priceElement = document.getElementById("gt-price");
+const liquidityElement = document.getElementById("gt-liquidity");
+const volumeElement = document.getElementById("gt-volume");
+const marketCapElement = document.getElementById("gt-market-cap");
+
+  const formatUsd = (value, maximumFractionDigits = 2) => {
+    const number = Number(value);
+
+    if (!Number.isFinite(number)) {
+      return "--";
+    }
+
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
+      minimumFractionDigits: 2,
+      maximumFractionDigits
+    }).format(number);
+  };
+
+  const loadGeckoTerminalData = async () => {
+    try {
+      const response = await fetch(geckoTerminalApi, {
+        headers: {
+          Accept: "application/json;version=20230203"
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error(`GeckoTerminal API error: ${response.status}`);
+      }
+
+      const result = await response.json();
+      const attributes = result?.data?.attributes;
+
+      if (!attributes) {
+        throw new Error("GeckoTerminal pool data is unavailable.");
+      }
+
+      if (priceElement) {
+        priceElement.textContent = formatUsd(
+          attributes.base_token_price_usd,
+          10
+        );
+      }
+
+      if (liquidityElement) {
+        liquidityElement.textContent = formatUsd(
+          attributes.reserve_in_usd,
+          2
+        );
+      }
+
+      if (volumeElement) {
+        volumeElement.textContent = formatUsd(
+          attributes.volume_usd?.h24,
+          2
+        );
+      }
+      if (marketCapElement) {
+  marketCapElement.textContent = formatUsd(
+    attributes.fdv_usd,
+    2
+  );
+}
+    } catch (error) {
+      console.error("Unable to load GeckoTerminal data:", error);
+
+      if (priceElement) priceElement.textContent = "--";
+      if (liquidityElement) liquidityElement.textContent = "--";
+      if (volumeElement) volumeElement.textContent = "--";
+      if (marketCapElement) marketCapElement.textContent = "--";
+    }
+  };
+
+  loadGeckoTerminalData();
+
+  setInterval(loadGeckoTerminalData, 60000);
 });

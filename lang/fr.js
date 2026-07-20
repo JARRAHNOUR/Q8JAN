@@ -12,6 +12,16 @@ window.Q8JAN_TRANSLATIONS.fr = {
   "tradeSunSwap": "Échanger sur SunSwap",
   "verifyTronScan": "Vérifier sur TronScan",
   "viewGitHub": "Dépôt GitHub",
+  "viewGeckoTerminal": "Voir sur GeckoTerminal",
+
+  "liveMarketKicker": "Marché en direct",
+"liveMarketTitle": "Aperçu du marché Q8JAN",
+"liveMarketDescription": "Données de marché en direct fournies par GeckoTerminal.",
+"currentPrice": "Prix actuel",
+"marketLiquidity": "Liquidité",
+"volume24h": "Volume sur 24 h",
+"estimatedMarketCap": "Capitalisation estimée",
+
   "heroWarning": "Vérifiez toujours l’adresse officielle du contrat avant d’acheter ou de transférer Q8JAN.",
   "tokenSubtitle": "Construit sur TRON",
   "tradingLive": "Échanges actifs",

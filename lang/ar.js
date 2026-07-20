@@ -12,6 +12,16 @@ window.Q8JAN_TRANSLATIONS.ar = {
   "tradeSunSwap": "تداول عبر SunSwap",
   "verifyTronScan": "تحقق عبر TronScan",
   "viewGitHub": "مستودع GitHub",
+  "viewGeckoTerminal": "متابعة السوق عبر GeckoTerminal",
+  
+"liveMarketKicker": "السوق المباشر",
+"liveMarketTitle": "نظرة عامة على سوق Q8JAN",
+"liveMarketDescription": "بيانات السوق المباشرة مقدمة من GeckoTerminal.",
+"currentPrice": "السعر الحالي",
+"marketLiquidity": "السيولة",
+"volume24h": "حجم التداول 24 ساعة",
+"estimatedMarketCap": "القيمة السوقية التقديرية",
+
   "heroWarning": "تحقق دائمًا من عنوان العقد الرسمي قبل شراء أو تحويل Q8JAN.",
   "tokenSubtitle": "مبني على شبكة TRON",
   "tradingLive": "التداول متاح",

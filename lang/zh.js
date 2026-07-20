@@ -12,6 +12,16 @@ window.Q8JAN_TRANSLATIONS.zh = {
   "tradeSunSwap": "在 SunSwap 交易",
   "verifyTronScan": "在 TronScan 验证",
   "viewGitHub": "GitHub 仓库",
+  "viewGeckoTerminal": "在 GeckoTerminal 查看",
+
+  "liveMarketKicker": "实时市场",
+"liveMarketTitle": "Q8JAN 市场概览",
+"liveMarketDescription": "实时市场数据由 GeckoTerminal 提供。",
+"currentPrice": "当前价格",
+"marketLiquidity": "流动性",
+"volume24h": "24小时交易量",
+"estimatedMarketCap": "预计市值",
+
   "heroWarning": "购买或转移 Q8JAN 前，请始终核对官方合约地址。",
   "tokenSubtitle": "构建于 TRON",
   "tradingLive": "交易已上线",
